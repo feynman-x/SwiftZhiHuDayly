@@ -1,0 +1,2004 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+     
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>   
+   
+
+    <script type="text/javascript" src="http://c.csdnimg.cn/pubfooter/js/tracking.js" charset="utf-8"></script>  
+
+    <script type="text/javascript">
+        var protocol = window.location.protocol;
+        document.write('<script type="text/javascript" src="' + protocol + '//csdnimg.cn/pubfooter/js/repoAddr2.js?v=' + Math.random() + '"></' + 'script>');
+    </script>
+
+  
+ <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+
+    <title>知乎API搜集 - 岁月如歌
+        - 博客频道 - CSDN.NET</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="mysql的insert/replace/update/delete &amp; insert,update,delete多表操作2008-03-28 15:44:10 from WriteDreamINSERT和REPLACE语句的功能都是向表中插入新的数据。这两条语句的语法类似。它们的主要区别是如何处理重复的数据。1. INSERT的一般用法MySQL中的INSERT语句和标准的I" />
+    <script src="http://static.blog.csdn.net/scripts/jquery.js" type="text/javascript"></script>
+      <script type="text/javascript" src="http://static.blog.csdn.net/scripts/jquery-version.js"></script>
+    <script type="text/javascript" src="http://static.blog.csdn.net/scripts/ad.js?v=1.1"></script>
+        <!--new top-->
+               <link rel="stylesheet" href="http://c.csdnimg.cn/public/common/toolbar/css/index.css">        <!--new top-->
+    
+      <!-- ad begin -->
+         <script language="javascript" type="text/javascript" src="http://ads.csdn.net/js/tracking.js"></script>
+    <!-- ad end-->
+
+    <link rel="Stylesheet" type="text/css" href="http://static.blog.csdn.net/skin/dark1/css/style.css?v=1.1" />
+    <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="/kinglearnjava/rss/list" />
+    <link rel="shortcut icon" href="http://c.csdnimg.cn/public/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="http://static.blog.csdn.net/scripts/SyntaxHighlighter/styles/default.css" />
+ 
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</head>
+<body>
+    <!-- 广告位开始 -->
+        <ins data-revive-zoneid="149" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+    <!-- 广告位结束 -->
+
+    
+   
+      <!--new top-->
+    <script id="toolbar-tpl-scriptId" fixed="true" prod="blog" skin="black" src="http://c.csdnimg.cn/public/common/toolbar/js/html.js" type="text/javascript"></script>
+     <!--new top-->
+    <div id="container">
+        <div id="header">
+    <div class="header">
+        <div id="blog_title">
+            <h2>
+                <a href="http://blog.csdn.net/kinglearnjava">岁月如歌</a></h2>
+            <h3>神锋的技术Blog</h3>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        
+     
+    </div>
+</div>
+<div id="navigator">
+    <div class="navigator_bg">
+    </div>
+    <div class="navigator">
+        <ul>           
+                <li id="btnContents"><a href="http://blog.csdn.net/kinglearnjava?viewmode=contents"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_mulu'])">
+                    <img src="http://static.blog.csdn.net/images/ico_list.gif">目录视图</span></a></li>
+                <li id="btnView"><a href="http://blog.csdn.net/kinglearnjava?viewmode=list"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_zhaiyao'])">
+                    <img src="http://static.blog.csdn.net/images/ico_summary.gif">摘要视图</span></a></li>
+                <li id="btnRss"><a href="http://blog.csdn.net/kinglearnjava/rss/list"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_RSS'])">
+                    <img src="http://static.blog.csdn.net/images/ico_rss.gif">订阅</span></a></li>                
+            
+
+            </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var username = "kinglearnjava";
+    var _blogger = username;
+    var blog_address = "http://blog.csdn.net/kinglearnjava";
+    var static_host = "http://static.blog.csdn.net";
+    var currentUserName = "";  
+</script>
+
+        <div id="body">
+            <div id="main">
+                <div class="main">
+                        <div class="ad_class">
+<div class="notice tracking-ad" data-mod='popu_3' > 
+
+<a href="http://huiyi.csdn.net/activity/product/goods_list?project_id=3287">
+<font color=blue>微信小程序实战项目——点餐系统
+</font></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://blog.csdn.net/turingbooks/article/details/53079366">
+<font color=red>程序员11月书讯，评论得书啦 
+</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://geek.csdn.net/news/detail/110921">
+<font color=blue>Get IT技能知识库，50个领域一键直达
+</font></a>
+
+
+</font></a>
+</font></a>
+</div>                        </div>
+                        
+
+
+<!-- 广告位开始 -->
+<ins data-revive-zoneid="72" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+<!-- 广告位结束 -->
+
+  
+<link href="http://static.blog.csdn.net/css/comment1.css" type="text/css" rel="stylesheet" />
+<link href="http://static.blog.csdn.net/css/style1.css" type="text/css" rel="stylesheet" />
+<script language='JavaScript' type='text/javascript' src='http://download.csdn.net/js/jquery.cookie.js'></script>
+<script type="text/javascript" src="http://c.csdnimg.cn/rabbit/search-service/main.js"></script>
+<link rel="stylesheet" href="http://static.blog.csdn.net/public/res-min/markdown_views.css?v=1.0" />
+<link rel="stylesheet" href="http://static.blog.csdn.net/css/category.css?v=1.0" />
+<script type="text/javascript" src="http://static.blog.csdn.net/public/res/bower-libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/web-storage-cache.min.js"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/replace.min.js"></script>
+
+
+
+
+  <script type="text/ecmascript">
+      window.quickReplyflag = true;
+           
+            var isBole = false;
+            
+          
+    </script>
+<div id="article_details" class="details">
+    <div class="article_title">   
+         <span class="ico ico_type_Repost"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/kinglearnjava/article/details/44173997">
+        知乎API搜集            
+        </a></span>
+    </h1>
+</div>
+
+   
+
+        <div class="article_manage clearfix">
+        <div class="article_l">
+            <span class="link_categories">
+            标签：
+              <a href='http://www.csdn.net/tag/api' target=_blank onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);">api</a><a href='http://www.csdn.net/tag/%e7%9f%a5%e4%b9%8e' target=_blank onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);">知乎</a>
+            </span>
+        </div>
+        <div class="article_r">
+            <span class="link_postdate">2015-03-10 13:09</span>
+            <span class="link_view" title="阅读次数">1724人阅读</span>
+            <span class="link_comments" title="评论次数"> <a href="#comments" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+            <span class="link_collect tracking-ad" data-mod="popu_171"> <a href="javascript:void(0);" onclick="javascript:collectArticle('知乎API搜集','44173997');return false;" title="收藏">收藏</a></span>
+             <span class="link_report"> <a href="#report" onclick="javascript:report(44173997,2);return false;" title="举报">举报</a></span>
+
+        </div>
+    </div>
+    <div class="embody"  style="display:none" id="embody">
+        <span class="embody_t">本文章已收录于：</span>
+        <div class="embody_c" id="lib" value="{&quot;err&quot;:0,&quot;msg&quot;:&quot;ok&quot;,&quot;data&quot;:[]}"></div>
+    </div>
+    <style type="text/css">        
+            .embody{
+                padding:10px 10px 10px;
+                margin:0 -20px;
+                border-bottom:solid 1px #ededed;                
+            }
+            .embody_b{
+                margin:0 ;
+                padding:10px 0;
+            }
+            .embody .embody_t,.embody .embody_c{
+                display: inline-block;
+                margin-right:10px;
+            }
+            .embody_t{
+                font-size: 12px;
+                color:#999;
+            }
+            .embody_c{
+                font-size: 12px;
+            }
+            .embody_c img,.embody_c em{
+                display: inline-block;
+                vertical-align: middle;               
+            }
+             .embody_c img{               
+                width:30px;
+                height:30px;
+            }
+            .embody_c em{
+                margin: 0 20px 0 10px;
+                color:#333;
+                font-style: normal;
+            }
+    </style>
+    <script  type="text/javascript">
+        $(function () {
+            try
+            {
+                var lib = eval("("+$("#lib").attr("value")+")");
+                var html = "";
+                if (lib.err == 0) {
+                    $.each(lib.data, function (i) {
+                        var obj = lib.data[i];
+                        //html += '<img src="' + obj.logo + '"/>' + obj.name + "&nbsp;&nbsp;";
+                        html += ' <a href="' + obj.url + '" target="_blank">';
+                        html += ' <img src="' + obj.logo + '">';
+                        html += ' <em><b>' + obj.name + '</b></em>';
+                        html += ' </a>';
+                    });
+                    if (html != "") {
+                        setTimeout(function () {
+                            $("#lib").html(html);                      
+                            $("#embody").show();
+                        }, 100);
+                    }
+                }      
+            } catch (err)
+            { }
+            
+        });
+    </script>
+      <div class="category clearfix">
+        <div class="category_l">
+           <img src="http://static.blog.csdn.net/images/category_icon.jpg">
+            <span>分类：</span>
+        </div>
+        <div class="category_r">
+                    <label>
+                        <span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_fenlei']);">APIs<em></em></span>                       
+                    </label>      
+        </div>
+    </div>
+    <script   type="text/javascript" src="http://static.blog.csdn.net/scripts/category.js"></script>  
+
+  
+
+  
+  
+     
+
+<div id="article_content" class="article_content">
+        <div class="markdown_views"><p>一共三篇，每篇都由Markdown编写，故无法用CSDN的Markdown编辑器添加更高一层的目录 <br>
+第一篇文章《知乎日报API分析》 <br>
+转自：<a href="https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90">https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90</a></p>
+
+<h1 id="声明">声明</h1>
+
+<p>以下所有 API 均由 <strong>知乎（Zhihu.Inc）</strong> 提供，本人（Izzy Leung）采取非正常手段获取。获取与共享之行为或有侵犯知乎权益的嫌疑。若被告知需停止共享与使用，本人会及时删除此页面与整个项目。 <br>
+请您暸解相关情况，并遵守知乎协议。 </p>
+
+
+
+<h1 id="api-说明">API 说明</h1>
+
+<ul>
+<li><p>知乎日报的消息以 JSON 格式输出</p></li>
+<li><p>网址中 <code>api</code> 后数字代表 API 版本，过高或过低均会得到错误信息</p></li>
+<li><p>较老的接口（启动界面图像获取，最新消息，过往消息）中将数字 2 替换为 1.2 获得效果相同，替换为 1.1 获得的是老版本 API 输出的 JSON 格式（替换为更低，如 1.0，或更高，如 1.3，将会获得错误消息）</p></li>
+<li><p>以下所有 API 使用的 HTTP Method 均为 <code>GET</code></p></li>
+</ul>
+
+
+
+<h1 id="api-分析">API 分析</h1>
+
+
+
+<h3 id="1-启动界面图像获取">1. 启动界面图像获取</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/start-image/1080*1776</code>  </li>
+<li><p><code>start-image</code> 后为图像分辨率，接受如下格式  </p>
+
+<ul><li><code>320*432</code></li>
+<li><code>480*728</code></li>
+<li><code>720*1184</code></li>
+<li><code>1080*1776</code>  </li></ul></li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    text: "© Fido Dido",
+    img: "http://p2.zhimg.com/10/7b/107bb4894b46d75a892da6fa80ef504a.jpg"
+}  
+</code></pre></li>
+<li><p>分析：</p>
+
+<ul><li><code>text</code> : 供显示的图片版权信息</li>
+<li><code>img</code> : 图像的 URL</li></ul></li>
+</ul>
+
+
+
+<h3 id="2-软件版本查询">2. 软件版本查询</h3>
+
+<ul>
+<li>Android: <code>http://news-at.zhihu.com/api/4/version/android/2.3.0</code></li>
+<li>iOS: <code>http://news-at.zhihu.com/api/4/version/ios/2.3.0</code></li>
+<li>URL 最后部分的数字代表所安装『知乎日报』的版本</li>
+<li><p>响应实例：  </p>
+
+<p>软件为最新版本时</p>
+
+<pre><code>{
+    "status": 0,
+    "latest": "2.2.0"
+}
+</code></pre>
+
+<p>软件为较老版本时</p>
+
+<pre><code>{
+    "status": 1,
+    "msg": "【更新内容】（后略）",
+    "latest": "2.2.0"
+}
+</code></pre></li>
+<li><p>分析：</p>
+
+<ul><li><code>status</code> : 0 代表软件为最新版本，1 代表软件需要升级</li>
+<li><code>latest</code> : 软件最新版本的版本号（数字的第二段会比最新的版本号低 1）</li>
+<li><code>msg</code> : 仅出现在软件需要升级的情形下，提示用户升级软件的对话框中显示的消息</li></ul></li>
+</ul>
+
+
+
+<h3 id="3-最新消息">3. 最新消息</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/news/latest</code>  </li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    date: "20140523",
+    stories: [
+        {
+            title: "中国古代家具发展到今天有两个高峰，一个两宋一个明末（多图）",
+            ga_prefix: "052321",
+            images: [
+                "http://p1.zhimg.com/45/b9/45b9f057fc1957ed2c946814342c0f02.jpg"
+            ],
+            type: 0,
+            id: 3930445
+        },
+    ...
+    ],
+    top_stories: [
+        {
+            title: "商场和很多人家里，竹制家具越来越多（多图）",
+            image: "http://p2.zhimg.com/9a/15/9a1570bb9e5fa53ae9fb9269a56ee019.jpg",
+            ga_prefix: "052315",
+            type: 0,
+            id: 3930883
+        },
+    ...
+    ]
+}
+</code></pre></li>
+<li><p>分析：</p>
+
+<ul><li><code>date</code> : 日期</li>
+<li><code>stories</code> : 当日新闻 <br>
+<ul><li><code>title</code> : 新闻标题</li>
+<li><code>images</code> : 图像地址（官方 API 使用数组形式。目前暂未有使用多张图片的情形出现，<strong>曾见无</strong> <code>images</code> <strong>属性的情况</strong>，请在使用中注意 ）</li>
+<li><code>ga_prefix</code> : 供 Google Analytics 使用</li>
+<li><code>type</code> : 作用未知</li>
+<li><code>id</code> : <code>url</code> 与 <code>share_url</code> 中最后的数字（应为内容的 id）</li>
+<li><code>multipic</code> : 消息是否包含多张图片（仅出现在包含多图的新闻中）</li></ul></li>
+<li><code>top_stories</code> : 界面顶部 ViewPager 滚动显示的显示内容（子项格式同上）</li></ul></li>
+</ul>
+
+
+
+<h3 id="4-消息内容获取与离线下载">4. 消息内容获取与离线下载</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/news/3892357</code>  </li>
+<li>使用在 <code>最新消息</code> 中获得的 <code>id</code>，拼接在 <code>http://news-at.zhihu.com/api/4/news/</code> 后，得到对应消息 JSON 格式的内容 </li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    body: "&lt;div class="main-wrap content-wrap"&gt;...&lt;/div&gt;",
+    image_source: "Angel Abril Ruiz / CC BY",
+    title: "卖衣服的新手段：把耐用品变成「不停买新的」",
+    image: "http://p4.zhimg.com/30/59/30594279d368534c6c2f91b2c00c7806.jpg",
+    share_url: "http://daily.zhihu.com/story/3892357",
+    js: [ ],
+    ga_prefix: "050615",
+    type: 0,
+    id: 3892357,
+    css: [
+        "http://news.at.zhihu.com/css/news_qa.6.css?v=b390f"
+    ]
+}   
+</code></pre></li>
+<li><p>分析：</p>
+
+<ul><li><code>body</code> : HTML 格式的新闻</li>
+<li><code>image-source</code> : 图片的内容提供方。为了避免被起诉非法使用图片，在显示图片时最好附上其版权信息。</li>
+<li><code>title</code> : 新闻标题</li>
+<li><code>image</code> : 获得的图片同 <code>最新消息</code> 获得的图片分辨率不同。这里获得的是在文章浏览界面中使用的大图。</li>
+<li><code>share_url</code> : 供在线查看内容与分享至 SNS 用的 URL</li>
+<li><code>js</code> : 供手机端的 WebView(UIWebView) 使用</li>
+<li><code>ga_prefix</code> : 供 Google Analytics 使用</li>
+<li><code>type</code> : 新闻的类型</li>
+<li><code>id</code> : 新闻的 id</li>
+<li><code>css</code> : 供手机端的 WebView(UIWebView) 使用 <br>
+<ul><li>可知，知乎日报的文章浏览界面利用 WebView(UIWebView) 实现</li></ul></li></ul></li>
+<li><p><strong>特别注意</strong> <br>
+在较为特殊的情况下，知乎日报可能将某个主题日报的站外文章推送至知乎日报首页。 <br>
+响应实例：</p>
+
+<pre><code>{
+    "theme_name": "电影日报",
+    "title": "五分钟读懂明星的花样昵称：一美、法鲨……",
+    "share_url": "http://daily.zhihu.com/story/3942319",
+    "js": [],
+    "ga_prefix": "052921",
+    "editor_name": "邹波",
+    "theme_id": 3,
+    "type": 1,
+    "id": 3942319,
+    "css": [
+        "http://news.at.zhihu.com/css/news_qa.6.css?v=b390f"
+    ]
+}
+</code></pre>
+
+<p>此时返回的 JSON 数据缺少 <code>body</code>，<code>iamge-source</code>，<code>image</code>，<code>js</code> 属性。多出 <code>theme_name</code>，<code>editor_name</code>，<code>theme_id</code> 三个属性。<code>type</code> 由 <code>0</code> 变为 <code>1</code>。</p></li>
+</ul>
+
+
+
+<h3 id="5-过往消息">5. 过往消息</h3>
+
+<ul>
+<li>URL: <code>http://news.at.zhihu.com/api/4/news/before/20131119</code>  </li>
+<li><strong>若果需要查询 11 月 18 日的消息，</strong><code>before</code> <strong>后的数字应为</strong> <code>20131119</code>  </li>
+<li><strong>知乎日报的生日为 2013 年 5 月 19 日，若</strong> <code>before</code> <strong>后数字小于</strong> <code>20130520</code> <strong>，只会接收到空消息</strong>  </li>
+<li>输入的今日之后的日期仍然获得今日内容，但是格式不同于最新消息的 JSON 格式  </li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    date: "20131118",
+    stories: [
+        {
+            title: "深夜食堂 · 我的张曼妮",
+            ga_prefix: "111822",
+            images: [
+                "http://p4.zhimg.com/7b/c8/7bc8ef5947b069513c51e4b9521b5c82.jpg"
+            ],
+            type: 0,
+            id: 1747159
+        },
+    ...
+    ]
+}
+</code></pre></li>
+<li><p>格式与前同，恕不再赘述</p></li>
+</ul>
+
+
+
+<h3 id="6-新闻额外信息">6. 新闻额外信息</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/story-extra/#{id}</code>  </li>
+<li>输入新闻的ID，获取对应新闻的额外信息，如评论数量，所获的『赞』的数量。</li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    "long_comments": 0,
+    "popularity": 161,
+    "short_comments": 19,
+    "comments": 19,
+}
+</code></pre></li>
+<li><p>分析：</p>
+
+<ul><li><code>long_comments</code> : 长评论总数</li>
+<li><code>popularity</code> : 点赞总数</li>
+<li><code>short_comments</code> : 短评论总数 </li>
+<li><code>comments</code> : 评论总数</li></ul></li>
+</ul>
+
+
+
+<h3 id="7-新闻对应长评论查看">7. 新闻对应长评论查看</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/story/4232852/long-comments</code></li>
+<li>使用在 <code>最新消息</code> 中获得的 <code>id</code>，在 <code>http://news-at.zhihu.com/api/4/story/#{id}/long-comments</code> 中将 <code>id</code> 替换为对应的 <code>id</code>，得到长评论 JSON 格式的内容 </li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    "comments": [
+        {
+            "author": "EleganceWorld",
+            "id": 545442,
+            "content": "上海到济南，无尽的猪排盖饭… （后略）",
+            "likes": 0,
+            "time": 1413589303,
+            "avatar": "http://pic2.zhimg.com/1f76e6a25_im.jpg"
+        },
+        ...
+    ]
+}
+</code></pre></li>
+<li><p>分析：</p>
+
+<ul><li><code>comments</code> : 长评论列表，形式为数组（请注意，其长度可能为 0） <br>
+<ul><li><code>author</code> : 评论作者</li>
+<li><code>id</code> : 评论者的唯一标识符</li>
+<li><code>content</code> : 评论的内容</li>
+<li><code>likes</code> : 评论所获『赞』的数量</li>
+<li><code>time</code> : 评论时间</li>
+<li><code>avatar</code> : 用户头像图片的地址</li></ul></li></ul></li>
+</ul>
+
+
+
+<h3 id="8-新闻对应短评论查看">8. 新闻对应短评论查看</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/story/4232852/short-comments</code></li>
+<li>使用在 <code>最新消息</code> 中获得的 <code>id</code>，在 <code>http://news-at.zhihu.com/api/4/story/#{id}/short-comments</code> 中将 <code>id</code> 替换为对应的 <code>id</code>，得到短评论 JSON 格式的内容</li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    "comments": [
+        {
+            "author": "Xiaole说",
+            "id": 545721,
+            "content": "就吃了个花生米，呵呵",
+            "likes": 0,
+            "time": 1413600071,
+            "avatar": "http://pic1.zhimg.com/c41f035ab_im.jpg"
+        },
+        ...
+    ]
+}
+</code></pre></li>
+<li><p>格式与前同，恕不再赘述</p></li>
+</ul>
+
+
+
+<h3 id="9-主题日报列表查看">9. 主题日报列表查看</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/themes</code></li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    "limit": 1000,
+    "subscribed": [ ],
+    "others": [
+        {
+            "color": 8307764,
+            "thumbnail": "http://pic4.zhimg.com/2c38a96e84b5cc8331a901920a87ea71.jpg",
+            "description": "内容由知乎用户推荐，海纳主题百万，趣味上天入地",
+            "id": 12,
+            "name": "用户推荐日报"
+        },
+        ...
+    ]
+}
+</code></pre>
+
+<ul><li>分析： <br>
+<ul><li><code>limit</code> : 返回数目之限制（仅为猜测）</li>
+<li><code>subscribed</code> : 已订阅条目</li>
+<li><code>others</code> : 其他条目 <br>
+<ul><li><code>color</code> : 颜色，作用未知</li>
+<li><code>thumbnail</code> : 供显示的图片地址</li>
+<li><code>description</code> : 主题日报的介绍</li>
+<li><code>id</code> : 该主题日报的编号</li>
+<li><code>name</code> : 供显示的主题日报名称</li></ul></li></ul></li></ul></li>
+</ul>
+
+
+
+<h3 id="10-主题日报内容查看">10. 主题日报内容查看</h3>
+
+<ul>
+<li>URL: <code>http://news-at.zhihu.com/api/4/theme/11</code></li>
+<li>使用在 <code>主题日报列表查看</code> 中获得需要查看的主题日报的 <code>id</code>，拼接在 <code>http://news-at.zhihu.com/api/4/theme/</code> 后，得到对应主题日报 JSON 格式的内容</li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    stories: [
+        {
+            images: [
+                "http://pic1.zhimg.com/84dadf360399e0de406c133153fc4ab8_t.jpg"
+            ],
+            type: 0,
+            id: 4239728,
+            title: "前苏联监狱纹身百科图鉴"
+        },
+        ...
+    ],
+    description: "为你发现最有趣的新鲜事，建议在 WiFi 下查看",
+    background: "http://pic1.zhimg.com/a5128188ed788005ad50840a42079c41.jpg",
+    color: 8307764,
+    name: "不许无聊",
+    image: "http://pic3.zhimg.com/da1fcaf6a02d1223d130d5b106e828b9.jpg",
+    editors: [
+        {
+            url: "http://www.zhihu.com/people/wezeit",
+            bio: "微在 Wezeit 主编",
+            id: 70,
+            avatar: "http://pic4.zhimg.com/068311926_m.jpg",
+            name: "益康糯米"
+        },
+        ...
+    ],
+    image_source: ""
+}
+</code></pre>
+
+<ul><li>分析： <br>
+<ul><li><code>stories</code> : 该主题日报中的文章列表 <br>
+<ul><li><code>images</code> : 图像地址（其类型为数组。请留意在代码中处理无该属性与数组长度为 0 的情况）</li>
+<li><code>type</code> : 类型，作用未知</li>
+<li><code>title</code> : 消息的标题</li></ul></li>
+<li><code>description</code> : 该主题日报的介绍</li>
+<li><code>background</code> : 该主题日报的背景图片（大图）</li>
+<li><code>color</code> : 颜色，作用未知</li>
+<li><code>name</code> : 该主题日报的名称</li>
+<li><code>image</code> : 背景图片的小图版本</li>
+<li><code>editors</code> : 该主题日报的编辑（『用户推荐日报』中此项的指是一个空数组，在 App 中的主编栏显示为『许多人』，点击后访问该主题日报的介绍页面，请留意） <br>
+<ul><li><code>url</code> : 主编的知乎用户主页</li>
+<li><code>bio</code> : 主编的个人简介</li>
+<li><code>id</code> : 数据库中的唯一表示符</li>
+<li><code>avatar</code> : 主编的头像</li>
+<li><code>name</code> : 主编的姓名</li></ul></li>
+<li><code>image_source</code> : 图像的版权信息</li></ul></li></ul></li>
+</ul>
+
+
+
+<h3 id="11-热门消息">11. 热门消息</h3>
+
+<ul>
+<li><strong>请注意！</strong>此 API 仍可访问，但是其内容未出现在最新的『知乎日报』 App 中。</li>
+<li>URL: <code>http://news-at.zhihu.com/api/3/news/hot</code>  </li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    recent: [
+        {
+            news_id: 3748552,
+            url: "http://daily.zhihu.com/api/2/news/3748552",
+            thumbnail: "http://p3.zhimg.com/67/6a/676a8337efec71a100eea6130482091b.jpg",
+            title: "长得漂亮能力出众性格单纯的姑娘为什么会没有男朋友？"
+        },
+    ...
+    ]
+}        
+</code></pre></li>
+<li><p>大体同前面介绍的 API 类似，唯一需要注意的是：欲获得图片地址，不再使用 <code>image</code> 而是 <code>thumbnail</code> 属性</p></li>
+<li><code>url</code> 属性可直接使用。请注意，<code>url</code> 中的 <code>api</code> 属性为 <strong>2</strong>，是较老版本。</li>
+</ul>
+
+
+
+<h3 id="12-软件推广">12. 软件推广</h3>
+
+<ul>
+<li><strong>请注意！</strong>此 API 仍可访问，但是其内容未出现在最新的『知乎日报』 App 中。</li>
+<li>Android: <code>http://news-at.zhihu.com/api/3/promotion/android</code>  </li>
+<li>iOS: <code>http://news-at.zhihu.com/api/3/promotion/ios</code></li>
+</ul>
+
+
+
+<h3 id="13-栏目总览">13. 栏目总览</h3>
+
+<ul>
+<li><strong>请注意！</strong>此 API 仍可访问，但是其内容未出现在最新的『知乎日报』 App 中。</li>
+<li>URL: <code>http://news-at.zhihu.com/api/3/sections</code>  </li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    data: [
+        {
+            id: 1,
+            thumbnail: "http://p2.zhimg.com/10/b8/10b8193dd6a3404d31b2c50e1e232c87.jpg",
+            name: "深夜食堂",
+            description: "睡前宵夜，用别人的故事下酒"
+        },
+    ...
+    ]
+}
+</code></pre></li>
+<li><p>同样，注意使用 <code>thumbnail</code> 获取图像的地址</p></li>
+</ul>
+
+
+
+<h3 id="14-栏目具体消息查看">14. 栏目具体消息查看</h3>
+
+<ul>
+<li><strong>请注意！</strong>此 API 仍可访问，但是其内容未出现在最新的『知乎日报』 App 中。</li>
+<li>URL: <code>http://news-at.zhihu.com/api/3/section/1</code> </li>
+<li>URL 最后的数字见『栏目总览』中相应栏目的 <code>id</code> 属性</li>
+<li><p>响应实例：</p>
+
+<pre><code>{
+    news: [
+        {
+            date: "20140522",
+            display_date: "5 月 22 日"
+        },
+    ...
+    ],
+    name: "深夜食堂",
+    timestamp: 1398780001
+}
+</code></pre></li>
+<li><p>往前：<code>http://news-at.zhihu.com/api/3/section/1/before/1398780001</code> </p>
+
+<ul><li>在 URL 最后加上一个时间戳，时间戳详见 JSON 数据末端的 <code>timestamp</code> 属性</li></ul></li>
+</ul>
+
+<p>第二篇文章《知乎API分析》 <br>
+转自：<a href="https://github.com/hrtsea/zhihu/wiki/%E7%9F%A5%E4%B9%8EAPI%E5%88%86%E6%9E%90">https://github.com/hrtsea/zhihu/wiki/%E7%9F%A5%E4%B9%8EAPI%E5%88%86%E6%9E%90</a></p>
+
+
+
+<h1 id="知乎api分析">知乎API分析</h1>
+
+<blockquote>
+  <p>作为一个WindowsPhone并常刷知乎的用户，我一直期待知乎windowsphone版客户端的发布。可根据经验，WindowsPhone这种小众群体一般很难获得关注，其应用的缺乏简直令人心酸。所谓求人不如求自己，于是我打算分析知乎的API，自己写一个WindowsPhone版的客户端。</p>
+  
+  <p>我借了我朋友潇湘竹的iphone5，在电脑的fiddler中抓取知乎的数据包（使用fiddler抓取iphone的包的方法在网上可以找的到，这里就不详述了）。</p>
+</blockquote>
+
+<p>首先是知乎登陆的API，在fiddler中可看出其post的地址是<a href="https://oauth.zhihu.com/token">https://oauth.zhihu.com/token</a>，其Request Headers如下（使用c#编写，）：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs avrasm">public static HttpAssistant<span class="hljs-preprocessor">.Header</span> requestHeader = new HttpAssistant<span class="hljs-preprocessor">.Header</span>()<span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.Method</span> = HttpAssistant<span class="hljs-preprocessor">.HttpRequestMethods</span><span class="hljs-preprocessor">.Post</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.AcceptEncoding</span> = <span class="hljs-string">"gzip, deflate"</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.Accept</span> = <span class="hljs-string">"application/json"</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.Connection</span> = <span class="hljs-string">"Keep-Alive"</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.UserAgent</span> = <span class="hljs-string">"ZhihuAppIrisRelease/96 (iPhone; iOS 6.1.2; Scale/2.00)"</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.ContentType</span> = <span class="hljs-string">"application/x-www-form-urlencoded; charset=utf-8"</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.Authorization</span> = authBasic<span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.XAPIVERSION</span> = <span class="hljs-string">"3.0"</span><span class="hljs-comment">;</span>
+requestHeader<span class="hljs-preprocessor">.XAPPVERSION</span> = <span class="hljs-string">"2.1.0"</span><span class="hljs-comment">;</span></code></pre>
+
+<p>其返回值为一个json类型的数据：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs json">{"<span class="hljs-attribute">token_type</span>":<span class="hljs-value"><span class="hljs-string">"bearer"</span></span>,"<span class="hljs-attribute">access_token</span>":<span class="hljs-value"><span class="hljs-string">"fc25004cfe424c83bec4e0189428b345"</span></span>,"<span class="hljs-attribute">expires_in</span>":<span class="hljs-value"><span class="hljs-number">2592000</span></span>,"<span class="hljs-attribute">refresh_token</span>":<span class="hljs-value"><span class="hljs-string">"6595ad8bcd9a489a965f2282bf54a04f"</span></span>}</code></pre>
+
+<p>其post值为：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs bash">client_id=<span class="hljs-number">4</span>bc899f2695f417eb733f3d21a7be0&amp;client_key=d179a1e11f2347a48c7f928d354621&amp;email=panshichen_joker%<span class="hljs-number">40</span>outlook.com&amp;grant_<span class="hljs-built_in">type</span>=password&amp;password=<span class="hljs-number">111111</span></code></pre>
+
+<p>经过删除并重装客户端及换账号登陆等操作，可知以下数据始终不变：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs cs"><span class="hljs-keyword">private</span> <span class="hljs-keyword">string</span> clientId = <span class="hljs-string">"4bc899f2695f417eb733f3d21a7be0"</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">string</span> clientKey = <span class="hljs-string">"d179a1e11f2347a48c7f928d354621"</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">string</span> authBasic = <span class="hljs-string">"Basic NGJjODk5ZjI2OTVmNDE3ZWI3MzNmM2QyMWE3YmUwOmQxNzlhMWUxMWYyMzQ3YTQ4YzdmOTI4ZDM1NDYyMQ=="</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">string</span> authBearer = <span class="hljs-string">"Bearer "</span>;
+且：
+authBearer += accessToken;</code></pre>
+
+<p>按上述数据提交，发现登陆成功！</p>
+
+<p>这着的知乎api就没什么内容了，以下是知乎的各个api，其post地址为：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs cs"><span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 登录</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> Login { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://oauth.zhihu.com/token"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 个人资料</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> PeopleSelf { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/people/self"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 未读消息数量</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> UnreadCount { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/unread_count"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 最新动态</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> Feeds { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/feeds"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 热门问答</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> ExploreAnswers { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/explore/answers"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 热门收藏</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> ExploreCollections { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/explore/collections"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 随便看看</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> ExploreRandom { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/explore/random_question"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 消息内容</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> NotificationContent { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/notifications/content"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 与我相关</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> NotificationLove { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/notifications/love"</span>; } }
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span></span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> 私信</span>
+        <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> Inbox { <span class="hljs-keyword">get</span> { <span class="hljs-keyword">return</span> <span class="hljs-string">"https://api.zhihu.com/inbox"</span>; } }</code></pre>
+
+<p>其提交函数为：</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs avrasm">public dynamic feeds()
+       {
+           try
+           {
+               requestHeader<span class="hljs-preprocessor">.Method</span> = HttpAssistant<span class="hljs-preprocessor">.HttpRequestMethods</span><span class="hljs-preprocessor">.Get</span><span class="hljs-comment">;</span>
+               requestHeader<span class="hljs-preprocessor">.Authorization</span> = authBearer<span class="hljs-comment">;</span>
+               requestBody<span class="hljs-preprocessor">.Data</span> = <span class="hljs-string">""</span><span class="hljs-comment">;</span>
+               string <span class="hljs-keyword">ret</span> = requestProcess<span class="hljs-preprocessor">.StringResponse</span>(ZhihuApi<span class="hljs-preprocessor">.Feeds</span>, requestHeader, requestBody, System<span class="hljs-preprocessor">.Text</span><span class="hljs-preprocessor">.Encoding</span><span class="hljs-preprocessor">.UTF</span>8)<span class="hljs-comment">;</span>
+               return Json<span class="hljs-preprocessor">.JsonDecode</span>(<span class="hljs-keyword">ret</span>)<span class="hljs-comment">;</span>
+
+           }
+           catch (Exception)
+           {
+
+               return null<span class="hljs-comment">;</span>
+           }
+
+       }</code></pre>
+
+<p>余者皆同。</p>
+
+<p>第三篇文章《知乎数据API 接口 nodejs》 <br>
+转自：<a href="https://github.com/shanelau/zhihu">https://github.com/shanelau/zhihu</a></p>
+
+
+
+<h1 id="知乎数据api-接口-nodejs">知乎数据API 接口  nodejs</h1>
+
+<p>======</p>
+
+<p>根据这些接口获取到知乎的数据，包括用户、问答、专栏、话题信息</p>
+
+<p><strong>欢迎贡献代码，一起完善知乎的接口</strong></p>
+
+
+
+<h2 id="快速开始">快速开始</h2>
+
+
+
+<pre class="prettyprint"><code class=" hljs javascript"><span class="hljs-keyword">var</span> zhihu = <span class="hljs-built_in">require</span>(<span class="hljs-string">'zhihu'</span>);</code></pre>
+
+
+
+<h2 id="demo">demo</h2>
+
+<p>获取用户的信息  </p>
+
+
+
+<pre class="prettyprint"><code class=" hljs delphi"><span class="hljs-keyword">var</span> username = <span class="hljs-string">'shanelau1021'</span>;
+zhihu.User.getUserByName(name).<span class="hljs-keyword">then</span>(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(user)</span><span class="hljs-comment">{
+    console.log(user);
+}</span>);</span></code></pre>
+
+
+
+<h2 id="用户-api">用户 API</h2>
+
+
+
+<h3 id="usergetuserbynameusername">User.getUserByName(username)</h3>
+
+<p>根据用户名获取到用户的信息，用户名为用的唯一标识，参见个人主页的url,或者设置中的个性网站  </p>
+
+<ul>
+<li><code>username</code>  //用户位置标识</li>
+</ul>
+
+<p><strong>Example</strong> <br>
+请求这个用户：<a href="http://www.zhihu.com/people/shanelau1021">http://www.zhihu.com/people/shanelau1021</a> <br>
+<code>name</code> 为 <code>shanelau1021</code></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs delphi"><span class="hljs-keyword">var</span> nam = <span class="hljs-string">'shanelau1021'</span>;
+zhihu.User.getUserByName(name).<span class="hljs-keyword">then</span>(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(user)</span><span class="hljs-comment">{
+    console.log(user);
+}</span>);</span>
+</code></pre>
+
+<p><strong>Result</strong></p>
+
+<p>参数说明</p>
+
+<ul>
+<li><code>answer</code>答题数量</li>
+<li><code>post</code> 文章数量</li>
+<li><code>follower</code> 跟随者数量</li>
+<li><code>profileUrl</code> 个人主页</li>
+<li><code>name</code> 名字</li>
+<li><code>sex</code>性别</li>
+</ul>
+
+
+
+<pre class="prettyprint"><code class=" hljs css"><span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">answer</span>:<span class="hljs-value"> <span class="hljs-number">5</span>,
+  post: <span class="hljs-number">0</span>,
+  follower: <span class="hljs-number">456</span>,
+  profileUrl: <span class="hljs-string">'http://www.zhihu.com/people/shanelau1021'</span>,
+  name: <span class="hljs-string">'狂飙蜗牛'</span>,
+  sex: <span class="hljs-string">'male'</span> </span></span></span>}
+</code></pre>
+
+
+
+<h2 id="专栏文章post">专栏文章–Post</h2>
+
+
+
+<h3 id="postinfoposturl">Post.info(postUrl)</h3>
+
+<p>获取专栏文章的详细信息</p>
+
+<ul>
+<li><code>postUrl</code>  文章的url地址</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs lua">zhihu.Post.info(postUrl).<span class="hljs-keyword">then</span>(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(data)</span></span>{
+    //<span class="hljs-keyword">do</span> something
+});</code></pre>
+
+<p><em>* Result *</em>  </p>
+
+<ul>
+<li>Object</li>
+</ul>
+
+<p><a href="http://zhuanlan.zhihu.com/api/columns/bigertech/posts/19885136">example</a></p>
+
+
+
+<h3 id="postpagenameoptions">Post.page(name,options)</h3>
+
+<p>获取专栏文章列表</p>
+
+<ul>
+<li><code>name</code> 专栏的英文名字， 例如：’bigertech’</li>
+<li><p><code>options</code>  {object}  ,默认值为10</p>
+
+<pre class="prettyprint"><code class=" hljs css"> <span class="hljs-rules">{
+         <span class="hljs-rule"><span class="hljs-attribute">limit</span>:<span class="hljs-value"> <span class="hljs-number">10</span>   //记录数
+         offset: <span class="hljs-number">10</span>  // 偏移量
+ </span></span></span>}</code></pre></li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<p><a href="http://zhuanlan.zhihu.com/api/columns/bigertech/posts?limit=1&amp;offset=10">demo</a></p>
+
+
+
+<h3 id="postlikersdetailposturl">Post.likersDetail(postUrl)</h3>
+
+<p>获取文章的点赞者的详细信息</p>
+
+<ul>
+<li><code>postUrl</code>  文章的url地址  </li>
+</ul>
+
+<p><strong>Result</strong>  </p>
+
+<p>用户数组</p>
+
+<ul>
+<li><code>{Array}</code>   //User</li>
+</ul>
+
+
+
+<h3 id="postzhuanlaninfoname">Post.zhuanlanInfo(name)</h3>
+
+<p>获取专栏的信息</p>
+
+<ul>
+<li><code>name</code>  专栏的名字，比如 <code>bigertech</code>  </li>
+</ul>
+
+<p><strong>Result</strong>  </p>
+
+
+
+<pre class="prettyprint"><code class=" hljs bash">{ followersCount: <span class="hljs-number">22614</span>,
+  description: <span class="hljs-string">''</span>,
+  creator:
+  { bio: <span class="hljs-string">'魅族营销中心招募设计师'</span>,
+  <span class="hljs-built_in">hash</span>: <span class="hljs-string">'29c3654588fd4246bb90cbd345242d65'</span>,
+  description: <span class="hljs-string">''</span>,
+  profileUrl: <span class="hljs-string">'http://www.zhihu.com/people/linan'</span>,
+  avatar:
+  { id: <span class="hljs-string">'24f3a654b'</span>,
+  template: <span class="hljs-string">'http://pic2.zhimg.com/{id}_{size}.jpg'</span> },
+  slug: <span class="hljs-string">'linan'</span>,
+  name: <span class="hljs-string">'李楠'</span> },
+  topics: [],
+  href: <span class="hljs-string">'/api/columns/bigertech'</span>,
+  acceptSubmission: <span class="hljs-literal">true</span>,
+  slug: <span class="hljs-string">'bigertech'</span>,
+  name: <span class="hljs-string">'笔戈科技'</span>,
+  url: <span class="hljs-string">'/bigertech'</span>,
+  avatar:
+  { id: <span class="hljs-string">'a4bf61d95'</span>,
+  template: <span class="hljs-string">'http://pic3.zhimg.com/{id}_{size}.jpg'</span> },
+  commentPermission: <span class="hljs-string">'anyone'</span>,
+  following: <span class="hljs-literal">false</span>,
+  postsCount: <span class="hljs-number">173</span>,
+  canPost: <span class="hljs-literal">false</span>,
+  activateAuthorRequested: <span class="hljs-literal">false</span> }</code></pre>
+
+<ul>
+<li><code>{Array}</code>   //User</li>
+</ul>
+
+
+
+<h2 id="答案-answer">答案 Answer</h2>
+
+
+
+<h3 id="likers">likers</h3>
+
+<p>获取答案的点赞者 <br>
+@TODO</p>
+
+
+
+<h2 id="问题apiquestion">问题API–Question</h2>
+
+
+
+<h3 id="focus">focus</h3>
+
+<p>问题的关注列表 <br>
+@TODO</p>
+
+
+
+<h3 id="collection">collection</h3>
+
+<p>问题的收藏列表</p>
+
+
+
+<h3 id="info">info</h3>
+
+<p>问题的详细信息 <br>
+@TODO</p>
+
+
+
+<h3 id="questions">questions</h3>
+
+<p>用户的提问列表 <br>
+@TODO</p>
+
+
+
+<h3 id="answers">answers</h3>
+
+<p>用户的回答列表 <br>
+@TODO</p>
+
+
+
+<h3 id="zhuanlansfocus">zhuanlansFocus</h3>
+
+<p>用户关注的专栏 <br>
+@TODO</p>
+
+
+
+<h3 id="topic">topic</h3>
+
+<p>用户关注的话题信息 <br>
+@TODO</p>
+
+
+
+<h2 id="话题api-topic">话题API - Topic</h2>
+
+
+
+<h3 id="topicgettopicbyidtopicid-page">Topic.getTopicByID(topicID[, page])</h3>
+
+<p>根据话题id获取该话题下的问题，话题id为唯一标识，参见话题的url <br>
+- <code>topicID</code> 话题的ID</p>
+
+<p><strong>Example</strong>  </p>
+
+<p>请求这个话题：<a href="http://www.zhihu.com/topic/19791501/questions">生活、艺术、文化与活动</a> <br>
+<code>topicID</code> 为 <code>19791501</code></p>
+
+<pre><code>var topicID = '19791501';
+    zhihu.Topic.getTopicByID(topicID).then(function(result){
+    console.log(result);
+});
+</code></pre>
+
+<p><strong>Result</strong></p>
+
+<p>参数说明</p>
+
+<ul>
+<li><code>name</code> 话题名称</li>
+<li><code>page</code> 当前页数</li>
+<li><code>totalPage</code> 该话题下问题总页数</li>
+<li><code>questions</code> 当页问题 <br>
+<ul><li><code>title</code> 问题名字</li>
+<li><code>url</code> 问题链接</li>
+<li><code>postTime</code> 问题最近更新时间</li></ul></li>
+</ul>
+
+
+
+<pre class="prettyprint"><code class=" hljs bash">
+  { name: <span class="hljs-string">'生活、艺术、文化与活动'</span>,
+  page: <span class="hljs-number">1</span>,
+  totalPage: <span class="hljs-number">47242</span>,
+  questions:
+  { <span class="hljs-string">'0'</span>:
+  { title: <span class="hljs-string">'为什么很多人能接受有过长期恋爱经历，却不能接受有过婚姻的人？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816723'</span>,
+  postTime: <span class="hljs-string">'41 秒前'</span> },
+  <span class="hljs-string">'1'</span>:
+  { title: <span class="hljs-string">'嘴巴张合脸颊会发出咯的声音？为什么？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816716'</span>,
+  postTime: <span class="hljs-string">'1 分钟前'</span> },
+  <span class="hljs-string">'2'</span>:
+  { title: <span class="hljs-string">'如何有效率的学好粤语呢？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816709'</span>,
+  postTime: <span class="hljs-string">'1 分钟前'</span> },
+  <span class="hljs-string">'3'</span>:
+  { title: <span class="hljs-string">'pc ssh连接到服务器每隔几十分钟掉线一次是什么问题？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816701'</span>,
+  postTime: <span class="hljs-string">'1 分钟前'</span> },
+  <span class="hljs-string">'4'</span>:
+  { title: <span class="hljs-string">'找对象该不该看长相？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816694'</span>,
+  postTime: <span class="hljs-string">'2 分钟前'</span> },
+  <span class="hljs-string">'5'</span>:
+  { title: <span class="hljs-string">'为什么很少有关于大阪的推荐？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816691'</span>,
+  postTime: <span class="hljs-string">'2 分钟前'</span> },
+  <span class="hljs-string">'6'</span>:
+  { title: <span class="hljs-string">'遇到偷东西朋友怎么办？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816684'</span>,
+  postTime: <span class="hljs-string">'2 分钟前'</span> },
+  <span class="hljs-string">'7'</span>:
+  { title: <span class="hljs-string">'自古以来，皇帝、权贵从小接受的是什么教育？东方与西方有哪些不同？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816683'</span>,
+  postTime: <span class="hljs-string">'2 分钟前'</span> },
+  <span class="hljs-string">'8'</span>:
+  { title: <span class="hljs-string">'还有什么小说像《东莞的森林》这样文艺的？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816680'</span>,
+  postTime: <span class="hljs-string">'2 分钟前'</span> },
+  <span class="hljs-string">'9'</span>:
+  { title: <span class="hljs-string">'韩国法律里，《匹诺曹》中哥哥应该会判什么刑？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816676'</span>,
+  postTime: <span class="hljs-string">'3 分钟前'</span> },
+  <span class="hljs-string">'10'</span>:
+  { title: <span class="hljs-string">'哪位作家出车祸丧失睡眠功能了？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816674'</span>,
+  postTime: <span class="hljs-string">'3 分钟前'</span> },
+  <span class="hljs-string">'11'</span>:
+  { title: <span class="hljs-string">'文字狱与同治中兴的关系？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816663'</span>,
+  postTime: <span class="hljs-string">'3 分钟前'</span> },
+  <span class="hljs-string">'12'</span>:
+  { title: <span class="hljs-string">'为什么到了年关有关婚姻的问题就多了起来呢？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816660'</span>,
+  postTime: <span class="hljs-string">'3 分钟前'</span> },
+  <span class="hljs-string">'13'</span>:
+  { title: <span class="hljs-string">'Windows Holographic这样的全息产品是否会扼杀儿童的想象力?'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816653'</span>,
+  postTime: <span class="hljs-string">'4 分钟前'</span> },
+  <span class="hljs-string">'14'</span>:
+  { title: <span class="hljs-string">'如何评价纳兰明珠？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816651'</span>,
+  postTime: <span class="hljs-string">'4 分钟前'</span> },
+  <span class="hljs-string">'15'</span>:
+  { title: <span class="hljs-string">'如何拍出有「领导人出游」感觉的照片？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816646'</span>,
+  postTime: <span class="hljs-string">'4 分钟前'</span> },
+  <span class="hljs-string">'16'</span>:
+  { title: <span class="hljs-string">'读大学本科第二年参加学校对外的交流项目到国外学习几个月，这样获得的证书是能认证的吗？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816645'</span>,
+  postTime: <span class="hljs-string">'4 分钟前'</span> },
+  <span class="hljs-string">'17'</span>:
+  { title: <span class="hljs-string">'什么情况下应该穿囚服？什么情况可以不穿？识别服和囚服一样么？有什么区别？希望有个详细解答！?'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816641'</span>,
+  postTime: <span class="hljs-string">'5 分钟前'</span> },
+  <span class="hljs-string">'18'</span>:
+  { title: <span class="hljs-string">'何谓荷花厅？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816635'</span>,
+  postTime: <span class="hljs-string">'5 分钟前'</span> },
+  <span class="hljs-string">'19'</span>:
+  { title: <span class="hljs-string">'360卫士在C盘为什么不可以删掉？'</span>,
+  url: <span class="hljs-string">'http://www.zhihu.com/question/27816632'</span>,
+  postTime: <span class="hljs-string">'5 分钟前'</span> } } }
+</code></pre></div>
+        <script  type="text/javascript">
+            $(function () {
+                $('pre.prettyprint code').each(function () {
+                    var lines = $(this).text().split('\n').length;
+                    var $numbering = $('<ul/>').addClass('pre-numbering').hide();
+                    $(this).addClass('has-numbering').parent().append($numbering);
+                    for (i = 1; i <= lines; i++) {
+                        $numbering.append($('<li/>').text(i));
+                    };
+                    $numbering.fadeIn(1700);
+                });
+            });
+        </script>
+   
+</div>
+
+
+
+
+<!-- Baidu Button BEGIN -->
+
+
+
+
+<div class="bdsharebuttonbox tracking-ad" style="float: right;" data-mod="popu_172">
+<a href="#" class="bds_more" data-cmd="more" style="background-position:0 0 !important; background-image: url(http://bdimg.share.baidu.com/static/api/img/share/icons_0_16.png?v=d754dcc0.png) !important"></a>
+<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"  style="background-position:0 -52px !important"></a>
+<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"style="background-position:0 -104px !important"></a>
+<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"style="background-position:0 -260px !important"></a>
+<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"style="background-position:0 -208px !important"></a>
+<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"style="background-position:0 -1612px !important" ></a>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+<!-- Baidu Button END -->
+
+   <link rel="stylesheet" href="http://static.blog.csdn.net/css/blog_detail.css" />
+
+    
+<!--172.16.140.14-->
+
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=1536434" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+
+ 
+
+        <div id="digg" ArticleId="44173997" >
+            <dl id="btnDigg" class="digg digg_disable"  onclick="btndigga();">
+               
+                 <dt>顶</dt>
+                <dd>0</dd>
+            </dl>
+           
+              
+            <dl id="btnBury" class="digg digg_disable"  onclick="btnburya();">
+              
+                  <dt>踩</dt>
+                <dd>0</dd>               
+            </dl>
+            
+        </div>
+     <div class="tracking-ad" data-mod="popu_222"><a href="javascript:void(0);" >&nbsp;</a>   </div>
+    <div class="tracking-ad" data-mod="popu_223"> <a href="javascript:void(0);" >&nbsp;</a></div>
+    <script type="text/javascript">
+                function btndigga() {
+                    $(".tracking-ad[data-mod='popu_222'] a").click();
+                }
+                function btnburya() {
+                    $(".tracking-ad[data-mod='popu_223'] a").click();
+                }
+            </script>
+
+   <ul class="article_next_prev">
+                <li class="prev_article"><span  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_shangyipian']);location.href='/kinglearnjava/article/details/44132647';">上一篇</span><a href="/kinglearnjava/article/details/44132647" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_shangyipian'])">Android真机调试连接本地Apache服务器</a></li>
+                <li class="next_article"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_xiayipian']);location.href='/kinglearnjava/article/details/44221943';">下一篇</span><a href="/kinglearnjava/article/details/44221943" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_xiayipian'])">位运算的运用</a></li>
+    </ul>
+
+    <div style="clear:both; height:10px;"></div>
+
+
+        <div class="similar_article"  style="display:none">
+                <h4>我的同类文章</h4>
+                <div class="similar_c"style="margin:20px 0px 0px 0px">
+                    <div class="similar_c_t">
+                    </div>
+                   
+                    <div class="similar_wrap tracking-ad" data-mod="popu_141"  style="max-height:195px;">
+                        <a href="http://blog.csdn.net" style="display:none">http://blog.csdn.net</a>
+                        <ul class="similar_list fl">                          
+                        </ul>
+
+                        <ul class="similar_list fr">                           
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+    <script  type="text/javascript">
+        $(function () {
+            GetCategoryArticles('0', 'kinglearnjava','foot','44173997');
+        });
+    </script>
+      
+</div>
+<div id="suggest"></div>
+         <script  language="javascript" type='text/javascript'>     
+             $(function(){
+                 $.get("/kinglearnjava/svc/GetSuggestContent/44173997",function(data){
+                     $("#suggest").html(data);
+                 });     
+             });             
+         </script>  
+
+
+<style>
+.blog-ass-articl dd {
+color: #369;
+width: 99%; /*修改行*/
+float: left;
+overflow: hidden;
+font: normal normal 12px/23px "SimSun";
+height: 23px;
+margin: 0;
+padding: 0 0 0 10px;
+margin-right: 30px;
+background: url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;
+}
+</style>
+
+ <link rel="stylesheet" href="http://static.blog.csdn.net/css/replace.css"/>
+<div id="relate" data-mod="popu_218"  class="tracking-ad">
+        <div class="relate_t">
+            <h3><span>参考知识库</span></h3>
+        </div>
+        <div class="relate_c">
+        </div>
+</div>
+ 
+
+<dl class="blog-ass-articl" id="res-relatived" > 
+    <div class="embody embody_b" id="libkeyparent"  style="display:none">
+            <span class="embody_t">更多资料请参考：</span>
+            <div class="embody_c" id="libkey"></div>
+    </div>
+
+
+     <dt><span>猜你在找</span></dt>    
+
+
+   
+
+
+    <div id="adCollege" style="width: 42%;float: left;"> 
+        <script src="http://csdnimg.cn/jobreco/job_reco.js" type="text/javascript"></script> 
+        <script type="text/javascript">
+            csdn.position.showEdu({
+                sourceType: "blog",
+                searchType: "detail",
+                searchKey: "44173997",
+                username: "",
+                recordcount: "5",
+                containerId: "adCollege" //容器DIV的id。 
+            });
+        </script> 
+    </div>  
+
+    
+     <div id="res"  data-mod="popu_36"  class="tracking-ad" style="width: 42%;float: left;margin-right: 30px;"></div>
+   
+</dl>
+
+
+<script type="text/javascript">
+    $(function () {
+        setTimeout(function () {
+            var searchtitletags = '知乎API搜集' + ',' + $("#tags").html();
+            searchService({
+                index: 'blog',
+                query: searchtitletags,
+                from: 5,
+                size: 5,
+                appendTo: '#res',
+                url: 'recommend',
+                his: 2,
+                client: "blog_cf_enhance",
+                tmpl: '<dd style="background:url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;"><a href="#{ url }" title="#{ title }" strategy="#{ strategy }">#{ title }</a></dd>'
+            });
+        }, 500);
+    });    
+
+ </script>  
+
+    <div id="ad_cen">        
+<!-- 广告位开始 -->
+<ins data-revive-zoneid="71" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+<!-- 广告位结束 -->    </div>  
+
+<div class="comment_class">
+    <div id="comment_title" class="panel_head">
+        <span class="see_comment">查看评论</span><a name="comments"></a></div>
+    <div id="comment_list">
+    </div>
+    <div id="comment_bar">
+    </div>
+    <div id="comment_form">
+    </div>
+    <div class="announce">
+        * 以上用户言论只代表其个人观点，不代表CSDN网站的观点或立场<a name="reply"></a><a name="quote"></a></div>
+</div>
+
+<script type="text/javascript">
+    var fileName = '44173997';
+    var commentscount = 0;
+    var islock = false
+</script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/comment.js"></script>
+    <div id="ad_bot">
+    </div>
+<div id="report_dialog">
+</div>
+
+<div id="d-top"  style="bottom:60px;">
+        <a id="quick-reply" class="btn btn-top q-reply" title="快速回复" style="display:none;">
+            <img src="http://static.blog.csdn.net/images/blog-icon-reply.png" alt="快速回复">
+        </a>    
+
+    <a id="d-top-a" class="btn btn-top backtop"  style="display: none;" title="返回顶部" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_huidaodingbu'])" style="">         
+         <img src="http://static.blog.csdn.net/images/top.png" alt="TOP">
+    </a>
+</div>
+<script type="text/javascript">
+    $(function ()
+    {
+        $("#ad_frm_0").height("90px");
+        
+        setTimeout(function(){
+            $("#ad_frm_2").height("200px");
+        },1000);    
+    });
+  
+</script>
+<style type="text/css">
+    .tag_list
+    {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #D7CBC1;
+        color: #000000;
+        font-size: 12px;
+        line-height: 20px;
+        list-style: none outside none;
+        margin: 10px 2% 0 1%;
+        padding: 1px;
+    }
+    .tag_list h5
+    {
+        background: none repeat scroll 0 0 #E0DBD3;
+        color: #47381C;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 5px;
+        margin: 0;
+    }
+    .tag_list h5 a
+    {
+        color: #47381C;
+    }
+    .classify
+    {
+        margin: 10px 0;
+        padding: 4px 12px 8px;
+    }
+    .classify a
+    {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+</style>
+
+
+<div class="tag_list" style="display:none"></div>
+  <script  language="javascript" type='text/javascript'>     
+      $(function(){
+              setTimeout(function(){
+                  $.get("/kinglearnjava/svc/GetTagContent",function(data){
+                      $(".tag_list").html(data).show();
+                  });     
+              });
+          },500);                       
+ </script> 
+
+
+<div id="pop_win" style="display:none ;position: absolute; z-index: 10000; border: 1px solid rgb(220, 220, 220); top: 222.5px; left: 630px; opacity: 1; background: none 0px 0px repeat scroll rgb(255, 255, 255);">
+    
+</div>
+<div id="popup_mask"></div>
+<style>
+    #popup_mask
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 9999;
+        left: 0px;
+        top: 0px;
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        display: none;
+    }
+
+</style>
+
+
+
+
+<script type="text/javascript">
+    $(function(){
+        setTimeout(function(){
+            $(".comment_body:contains('回复')").each(function(index,item){
+                var u=$(this).text().split('：')[0].toString().replace("回复","")
+                var thisComment=$(this);
+                if(u)
+                {
+                    $.getJSON("https://passport.csdn.net/get/nick?callback=?", {users: u}, function(a) {
+                        if(a!=null&&a.data!=null&&a.data.length>0)
+                        {
+                            nick=a.data[0].n; 
+                            if(u!=nick)
+                            {
+                                thisComment.text(thisComment.text().replace(u,nick));  
+                            }
+                        }       
+                    });  
+                }
+            });         
+
+        },200);  
+
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },5000);
+
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },10000);
+
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },15000);
+        
+        setTimeout(function(){
+            $("a img[src='http://js.tongji.linezing.com/stats.gif']").parent().css({"position":"absolute","left":"50%"});
+        },300);
+    });
+
+    function loginbox(){
+        var $logpop=$("#pop_win");
+        $logpop.html('<iframe src="https://passport.csdn.net/account/loginbox?service=http://static.blog.csdn.net/callback.htm" frameborder="0" height="600" width="400" scrolling="no"></iframe>');
+
+        $('#popup_mask').css({
+            opacity: 0.5,
+            width: $( document ).width() + 'px',
+            height:  $( document ).height() + 'px'
+        });
+        $('#popup_mask').css("display","block");
+ 
+        $logpop.css( {
+            top: ($( window ).height() - $logpop.height())/ 2  + $( window 
+       ).scrollTop() + 'px',
+            left:($( window ).width() - $logpop.width())/ 2
+        } );
+ 
+        setTimeout( function () {
+            $logpop.show();
+            $logpop.css( {
+                opacity: 1
+            } );
+        }, 200 );
+ 
+        $('#popup_mask').unbind("click");
+        $('#popup_mask').bind("click", function(){
+            $('#popup_mask').hide();
+            var $clopop = $("#pop_win");
+            $("#common_ask_div_sc").css("display","none");
+            $clopop.css( {
+                opacity: 0
+            } );
+            setTimeout( function () {
+                $clopop.hide();
+            }, 350 );
+            return false;
+        });
+    }   
+
+</script>
+ <script language="javascript" type="text/javascript" src="http://ads.csdn.net/js/async_new.js"></script>      
+
+
+                        <div class="clear">
+                        </div>
+                    </div>                   
+                
+            </div>
+                   
+           <div id="side">
+               
+    <div class="side">
+<div id="panel_Profile" class="panel">
+<ul class="panel_head"><span>个人资料</span></ul>
+<ul class="panel_body profile">
+<div id="blog_userface">
+    <a href="http://my.csdn.net/kinglearnjava" target="_blank">
+    <img src="http://avatar.csdn.net/2/0/7/1_kinglearnjava.jpg" title="访问我的空间" style="max-width:90%"/>
+    </a>
+    <br />
+    <span><a href="http://my.csdn.net/kinglearnjava" class="user_name" target="_blank">kinglearnjava</a></span>
+</div>
+<div class="interact">
+
+    <a href="javascript:void(0);" class="attent" id="span_add_follow" title="[加关注]"></a>
+
+ <a href="javascript:void(0);" class="letter"  title="[发私信]" onclick="window.open('http://msg.csdn.net/letters/model?receiver=kinglearnjava','_blank','height=350,width=700');_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_sixin'])"></a>  
+</div>
+<div id="blog_medal">
+                <div id="bms_box">
+               </div>
+</div>
+<ul id="blog_rank">
+    <li>访问：<span>60172次</span></li>
+    <li>积分：<span>1482</span> </li>    
+    <li >等级： <span style="position:relative;display:inline-block;z-index:1" >
+            <img src="http://c.csdnimg.cn/jifen/images/xunzhang/jianzhang/blog4.png" alt="" style="vertical-align: middle;" id="leveImg">
+            <div id="smallTittle" style=" position: absolute;  left: -24px;  top: 25px;  text-align: center;  width: 101px;  height: 32px;  background-color: #fff;  line-height: 32px;  border: 2px #DDDDDD solid;  box-shadow: 0px 2px 2px rgba (0,0,0,0.1);  display: none;   z-index: 999;">
+            <div style="left: 42%;  top: -8px;  position: absolute;  width: 0;  height: 0;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-bottom: 8px solid #EAEAEA;"></div>
+            积分：1482 </div>
+        </span>  </li>
+    <li>排名：<span>千里之外</span></li>
+</ul>
+<ul id="blog_statistics">
+    <li>原创：<span>85篇</span></li>
+    <li>转载：<span>42篇</span></li>
+    <li>译文：<span>0篇</span></li>
+    <li>评论：<span>1条</span></li>
+</ul>
+</ul>
+</div>
+
+
+<div class="panel" id="panel_Search">
+    <ul class="panel_head"><span>文章搜索</span></ul>
+    <ul class="panel_body">
+        <form id="frmSearch" action="http://so.csdn.net/search" class="form_search" target="_blank">
+        <span><input id="inputSearch" type="text" class="blogsearch" title="请输入关键字" /></span>
+        <input id="btnSubmit" type="button" value="搜索" title="search in blog" />
+        <input type="hidden" name="q" id="inputQ" />
+        <input type="hidden" name="t" value="blog" />
+        <a id="btnSearchBlog" target="_blank"></a>
+        </form>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {           
+            search();
+        });
+
+        $("#frmSearch").submit(function () {
+            search();
+            return false;
+        });
+
+        function search()
+        {
+            var url = "http://so.csdn.net/so/search/s.do?q=" + encodeURIComponent($("#inputSearch").val()) + "&u=" + username + "&t=blog";
+            window.location.href = url;
+        }   
+    });
+</script><div id="panel_Category" class="panel">
+<ul class="panel_head"><span>文章分类</span></ul>
+<ul class="panel_body">    
+                 <li>
+                    <a href="/kinglearnjava/article/category/2710653" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Java练习作品</a><span>(26)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2736831" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Java心得</a><span>(33)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2743885" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">算法研习</a><span>(11)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2787647" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Sublime Text 3</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2842393" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">面试题</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2842395" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">多线程</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2911267" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Android开发</a><span>(37)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2925991" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">APIs</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/2936975" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">计算机基础</a><span>(3)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5837883" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">PowerShell</a><span>(0)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5866289" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Python</a><span>(15)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5877875" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">正则表达式</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5880489" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">VBA</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5881791" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">翻墙</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5882489" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">爬虫</a><span>(5)</span>
+                </li>
+                 <li>
+                    <a href="/kinglearnjava/article/category/5915715" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">网络知识</a><span>(1)</span>
+                </li>
+</ul>
+</div><div id="panel_Archive" class="panel">
+<ul class="panel_head"><span>文章存档</span></ul>
+<ul class="panel_body">
+<div id="archive_list">
+<!--归档统计-->
+<li><a href="/kinglearnjava/article/month/2015/11">2015年11月</a><span>(2)</span></li><li><a href="/kinglearnjava/article/month/2015/10">2015年10月</a><span>(23)</span></li><li><a href="/kinglearnjava/article/month/2015/09">2015年09月</a><span>(10)</span></li><li><a href="/kinglearnjava/article/month/2015/08">2015年08月</a><span>(1)</span></li><li><a href="/kinglearnjava/article/month/2015/07">2015年07月</a><span>(6)</span></li><li><a href="/kinglearnjava/article/month/2015/06">2015年06月</a><span>(5)</span></li><li><a href="/kinglearnjava/article/month/2015/05">2015年05月</a><span>(2)</span></li><li><a href="/kinglearnjava/article/month/2015/04">2015年04月</a><span>(3)</span></li><li><a href="/kinglearnjava/article/month/2015/03">2015年03月</a><span>(16)</span></li><li><a href="/kinglearnjava/article/month/2015/02">2015年02月</a><span>(3)</span></li><li><a href="/kinglearnjava/article/month/2015/01">2015年01月</a><span>(16)</span></li><li><a href="/kinglearnjava/article/month/2014/12">2014年12月</a><span>(34)</span></li><li><a href="/kinglearnjava/article/month/2014/11">2014年11月</a><span>(6)</span></li>
+</div>
+</ul>
+</div>
+<div id="hotarticls" class="panel">
+<ul class="panel_head">
+    <span>       
+阅读排行    </span>
+</ul>
+
+<ul class="panel_body itemlist">
+<li>
+<a href="/kinglearnjava/article/details/49307463" title="Sublime Text 3 装了Anaconda 写Python代码出现框框的解决办法">Sublime Text 3 装了Anaconda 写Python代码出现框框的解决办法</a><span>(3391)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/49107253" title="Sublime Text 3 运行Python控制台不能输出中文的解决方法">Sublime Text 3 运行Python控制台不能输出中文的解决方法</a><span>(1881)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/43020553" title="Java时区TimeZone与操作系统时区不一致">Java时区TimeZone与操作系统时区不一致</a><span>(1875)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/48241759" title="Android用AccessibilityService 辅助服务实现微信抢红包APP">Android用AccessibilityService 辅助服务实现微信抢红包APP</a><span>(1766)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/44173997" title="知乎API搜集">知乎API搜集</a><span>(1723)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/47152419" title="Android adb命令唤醒屏幕">Android adb命令唤醒屏幕</a><span>(1412)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/44132339" title="Apache 2.4.12 下载与安装">Apache 2.4.12 下载与安装</a><span>(1365)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/49124735" title="Markdown 显示尖括号和上标">Markdown 显示尖括号和上标</a><span>(1242)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/48373345" title="Android 获取当前APP和系统的版本信息">Android 获取当前APP和系统的版本信息</a><span>(1139)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41806379" title="蓝桥杯真题：C村建k个邮局">蓝桥杯真题：C村建k个邮局</a><span>(1058)</span>
+</li>
+</ul>
+</div>
+<div id="hotarticls2" class="panel">
+<ul class="panel_head"><span>评论排行</span></ul>
+<ul class="panel_body itemlist">
+<li>
+<a href="/kinglearnjava/article/details/41826819" title="一道画图题">一道画图题</a><span>(2)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/44035313" title="小米4安卓开发真机调试在Eclipse中Unknown的解决方法">小米4安卓开发真机调试在Eclipse中Unknown的解决方法</a><span>(1)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41697945" title="String.format函数使用方法介绍">String.format函数使用方法介绍</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41679321" title="初始化块、静态初始化块、构造器运行的先后次序">初始化块、静态初始化块、构造器运行的先后次序</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41648351" title="Java的位运算">Java的位运算</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41646025" title="遍历Map的四种方法">遍历Map的四种方法</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41549919" title="约瑟夫环算法研究">约瑟夫环算法研究</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41514101" title="在Sublime Text 3中配置编译和运行Java的两个方法">在Sublime Text 3中配置编译和运行Java的两个方法</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/49804365" title="已搬家到新博客！">已搬家到新博客！</a><span>(0)</span>
+</li>
+<li>
+<a href="/kinglearnjava/article/details/41356415" title="Java简易绘图板">Java简易绘图板</a><span>(0)</span>
+</li>
+</ul>
+</div>
+<div id="homepageArticles" class="panel tracking-ad" data-mod="popu_4">
+<ul class="panel_head"><span>推荐文章</span></ul>
+<ul class="panel_body" id="ad_commend">
+<ul>
+<li><a href="http://blog.csdn.net/yyh352091626/article/details/53304728" target="_blank">* RxJava详解，由浅入深</a></li>
+<li><a href="http://blog.csdn.net/foruok/article/details/53063089" 
+target="_blank">* 倍升工作效率的小策略</a></li>
+<li><a href="http://blog.csdn.net/jiangwei0910410003/article/details/53099390" 
+target="_blank">* Android热修复框架AndFix原理解析及使用</a></li>
+<li><a href="http://blog.csdn.net/xiangzhihong8/article/details/53312278" target="_blank">* “区块链”究竟是什么鬼</a></li>
+<li><a href="http://blog.csdn.net/yinwenjie/article/details/53033017" 
+target="_blank">* 架构设计：系统存储-MySQL主从方案业务连接透明化（中）</a></li>
+
+
+</ul></ul>
+</div>
+
+
+<div id="newcomments" class="panel">
+<ul class="panel_head"><span>最新评论</span></ul>
+<ul class="panel_body itemlist">
+    <li>
+   
+         <a href="/kinglearnjava/article/details/44035313#comments">小米4安卓开发真机调试在Eclipse中Unknown的解决方法</a>
+    <p style="margin:0px;"><a href="/mills_" class="user_name">mills_</a>:
+真是吐血了！
+    </p>
+    </li>
+    <li>
+   
+         <a href="/kinglearnjava/article/details/44176391#comments">API收集</a>
+    <p style="margin:0px;"><a href="/kinglearnjava" class="user_name">kinglearnjava</a>:
+test
+    </p>
+    </li>
+    <li>
+   
+         <a href="/kinglearnjava/article/details/41826819#comments">一道画图题</a>
+    <p style="margin:0px;"><a href="/kinglearnjava" class="user_name">kinglearnjava</a>:
+@rabbitter:有道理
+    </p>
+    </li>
+    <li>
+   
+         <a href="/kinglearnjava/article/details/41826819#comments">一道画图题</a>
+    <p style="margin:0px;"><a href="/rabbitter" class="user_name">rabbitter</a>:
+是不是没有必要对两个点进行排序，以保证x1&lt;x2,y1&lt;y2。因为接下来n行，每行4个非负整数，分别...
+    </p>
+    </li>
+</ul>
+</div>
+    </div>
+    <div class="clear">
+    </div>
+
+
+                   <!-- 广告位开始 --> 
+                    <ins data-revive-zoneid="190" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins> 
+                    <!-- 广告位结束 -->
+
+           </div>   
+
+            <div class="clear">
+            </div>
+        </div>
+
+        
+
+<script type="text/javascript" src="http://c.csdnimg.cn/rabbit/cnick/cnick.js"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/newblog.min.js"></script>
+
+
+<script type="text/javascript" src="http://medal.blog.csdn.net/showblogmedal.ashx?blogid=4886743"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/JavaScript1.js"></script>
+
+    <script type="text/javascript" src="http://passport.csdn.net/content/loginbox/login.js"></script>
+<script type="text/javascript">document.write("<img src=http://counter.csdn.net/pv.aspx?id=24 border=0 width=0 height=0>");</script>
+<script type="text/javascript" src="http://www.csdn.net/ui/scripts/Csdn/counter.js"></script>
+<script type="text/javascript" src="http://ad.csdn.net/scripts/ad-blog.js"></script>
+<script type="text/javascript">
+    $(function () {
+        function __get_code_toolbar(snippet_id) {
+            return $("<span class='tracking-ad' data-mod='popu_167'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "' target='_blank' title='在CODE上查看代码片'  style='text-indent:0;'><img src='https://code.csdn.net/assets/CODE_ico.png' width=12 height=12 alt='在CODE上查看代码片' style='position:relative;top:1px;left:2px;'/></a></span>"
+                    + "<span class='tracking-ad' data-mod='popu_170'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "/fork' target='_blank' title='派生到我的代码片' style='text-indent:0;'><img src='https://code.csdn.net/assets/ico_fork.svg' width=12 height=12 alt='派生到我的代码片' style='position:relative;top:2px;left:2px;'/></a></span>");
+        }
+        
+        $("[code_snippet_id]").each(function () {
+            __s_id = $(this).attr("code_snippet_id");
+            if (__s_id != null && __s_id != "" && __s_id != 0 && parseInt(__s_id) > 70020) {
+                __code_tool = __get_code_toolbar(__s_id);
+                $(this).prev().find(".tools").append(__code_tool);
+            }
+        });
+
+        $(".bar").show();
+    });
+</script>
+
+
+
+
+
+    </div>
+      <!--new top-->
+    
+    <script id="csdn-toolbar-id" btnId="header_notice_num" wrapId="note1" count="5" subCount="5" type="text/javascript" src="http://c.csdnimg.cn/public/common/toolbar/js/toolbar.js"></script>     <!--new top-->
+   
+    <link href="http://c.csdnimg.cn/comm_ask/css/ask_float_block.css" type="text/css" rel="stylesheet" />
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/libs/wmd.js'></script>
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/libs/showdown.js'></script>
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/libs/prettify.js'></script>
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/apps/ask_float_block.js'></script>
+   
+
+  <div id="a52b5334d" style="width: 1px; height: 1px; display: none;">
+                    <script id="adJs52b5334"></script>
+                    <script>document.getElementById("adJs52b5334").src = "http://ads.csdn.net/js/opt/52b5334.js?t=" + Math.random();</script>
+   </div>
+
+    <link rel="stylesheet" href="http://static.blog.csdn.net/css/blog_code.css" />
+    <script type="text/javascript" src="http://static.blog.csdn.net/scripts/saveToCode.js"></script>
+      <script type="text/javascript" src="//csdnimg.cn/rabbit/tracking-ad/main.js?75eacd8"></script>
+</body>
+</html>   
+ 

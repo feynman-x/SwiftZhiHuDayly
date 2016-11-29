@@ -1,0 +1,23 @@
+GET /api/4/story-extra/9021074 HTTP/1.1
+Accept-Encoding: gzip
+Authorization: Bearer Z43zGKWLT-emPohbqcOogQ
+User-Agent: DailyApi/4 (Linux; Android 5.1.1; Android SDK built for x86_64 Build/Android/sdk_phone_x86_64/generic_x86_64/LMY48X/zh_CN) Google-HTTP-Java-Client/1.20.0 (gzip) Google-HTTP-Java-Client/1.20.0 (gzip)
+x-api-version: 4
+x-app-version: 2.6.0
+x-os: Android 5.1.1
+x-device: Android SDK built for x86_64
+x-uuid: 27ca4d57-75e1-4004-8965-27f12d7c4190
+za: OS=Android 5.1.1&Platform=Android SDK built for x86_64
+Host: news-at.zhihu.com
+Connection: Keep-Alive
+
+
+
+{
+	"vote_status": 0,
+	"popularity": 312,
+	"favorite": false,
+	"long_comments": 4,
+	"comments": 63,
+	"short_comments": 59
+}

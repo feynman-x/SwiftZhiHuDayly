@@ -1,0 +1,30 @@
+GET /api/4/story/9021074 HTTP/1.1
+Accept-Encoding: gzip
+Authorization: Bearer Z43zGKWLT-emPohbqcOogQ
+User-Agent: DailyApi/4 (Linux; Android 5.1.1; Android SDK built for x86_64 Build/Android/sdk_phone_x86_64/generic_x86_64/LMY48X/zh_CN) Google-HTTP-Java-Client/1.20.0 (gzip) Google-HTTP-Java-Client/1.20.0 (gzip)
+x-api-version: 4
+x-app-version: 2.6.0
+x-os: Android 5.1.1
+x-device: Android SDK built for x86_64
+x-uuid: 27ca4d57-75e1-4004-8965-27f12d7c4190
+za: OS=Android 5.1.1&Platform=Android SDK built for x86_64
+Host: news-at.zhihu.com
+Connection: Keep-Alive
+
+
+
+
+
+{
+	"body": "<div class=\"main-wrap content-wrap\">\n<div class=\"headline\">\n\n<div class=\"img-place-holder\"><\/div>\n\n\n\n<div class=\"headline-background\">\n<a class=\"headline-background-link\" href=\"http:\/\/house.people.com.cn\/n1\/2016\/1129\/c164220-28906110.html\">\n<div class=\"heading\">相关新闻<\/div>\n<div class=\"heading-content\">上海收紧住房信贷出新政 楼市或进入高位横盘<\/div>\n<i class=\"icon-arrow-right\"><\/i>\n<\/a>\n<\/div>\n\n<\/div>\n\n<div class=\"content-inner\">\n\n\n\n\n<div class=\"question\">\n<h2 class=\"question-title\"><\/h2>\n\n<div class=\"answer\">\n\n<div class=\"meta\">\n<img class=\"avatar\" src=\"http:\/\/pic4.zhimg.com\/521f439b7a374889afa9a76a34e844bf_is.jpg\">\n<span class=\"author\">褚自航，<\/span><span class=\"bio\">风险投资人\/CFA\/CPA<\/span>\n<\/div>\n\n<div class=\"content\">\n<p>朋友圈被刷屏，先看下政策吧<\/p>\r\n<p><img class=\"content-image\" src=\"http:\/\/pic3.zhimg.com\/70\/v2-20e3536d072231ded8c98fb61f1095b6_b.jpg\" alt=\"\" \/><\/p>\r\n<p>除了绝少数真土豪（豪到不仅有钱且不在乎通货膨胀下低息贷款套利的收益），基本上大家买房都是要贷款的，按新政策只要有贷款记录，哪怕你手上没房，就算非首套房，至少 50% 首付<\/p>\r\n<p>又鉴于上海的普通住房标准远低于实际成交房价且房管局对价格的认定越来越严格，可以说市场上绝大部分的房子已经都只能按非普通住房标准执行了&hellip;&hellip;所以对不起，70% 首付<\/p>\r\n<p>所以对于在上海有过贷款记录想要置换房子的朋友们来说，对不起，首付 70%，你要重新看看你的钱够不够了&hellip;&hellip;<\/p>\r\n<p>鉴于经济下行，大多数人收入增长有限，手里的钱恐怕短时间很难提高那么多，所以置换的链条也随着寒冬来临而冰封了。<\/p>\r\n<p>而这对首套房购房者也不是好事，虽然首付仅提高了 5%从 30%上升到 35%。但是由于上海的新房市场早已豪宅化，所以绝大多数普通首次购房者只能选择二手房，而上海的二手房交易又是维系在不断以旧换新，以小换大的置换链条之上。这就意味着对于首套房购房者来说，由于置换链条的冰封，二手房房源供给将大大减少（这里的假设是绝大多数房产还是在自住客而非投资客手里）<\/p>\r\n<p>所以总体而言，政策严格执行的条件下，上海二手房交易市场大概率交易数据急剧下降。不管你是自住还是投资，上海房产市场合法的低利率高杠杆大门已经关上了。<\/p>\n<\/div>\n<\/div>\n\n<div class=\"answer\">\n\n<div class=\"meta\">\n<img class=\"avatar\" src=\"http:\/\/pic4.zhimg.com\/946004cf563501532724223479337027_is.jpg\">\n<span class=\"author\">Ryan Lu，<\/span><span class=\"bio\">银行信贷审批，轻度强迫症患者<\/span>\n<\/div>\n\n<div class=\"content\">\n<p>评价房贷新政的时候我们要考虑的应该有三个层面的问题：<\/p>\r\n<p>1. 房贷新政在短期对抑制房价上涨有没有作用？<\/p>\r\n<p>2. 限购限贷政策在中长期对抑制房价上涨有没有作用？<\/p>\r\n<p>3. 有没有好好的替代方法？<\/p>\r\n<p>首先，更严格的限购限贷在短期对抑制房价有没有作用。我的看法和大多人不一样，通过压制需求，可以明显降低成交冲动，短期内对上涨的房价有打压作用。<\/p>\r\n<p>因为上海更严格的限购，会压制投机购房者的欲望，因为成本更高了，杠杆更低了，短期的上涨空间预期小了，未来抛售的难度增加了，合格购房群体减少了。<\/p>\r\n<p>看到现在的答案都是骂房地产新政的，其实核心问题在于对&ldquo;刚需&rdquo;的定义不同。在政府来看，小夫妻双方名下无房 ＋ 无贷款记录的潜在购房人才是&ldquo;刚需&rdquo;。而知乎大多人的视角是名下有一套房，为了改善目的而换房才是刚需。<\/p>\r\n<p>提高首付比例和杠杆比例，各个政府部门制定的出发点是不同的。从银行角度来看，更重要的是监管当局担心各家银行&ldquo;高位接盘&rdquo;，为楼市举最后一波杠铃，未来导致大规模的坏账爆发。对于银行来说，房价当然是越高越好。<\/p>\r\n<p>其次，在中长期限购限贷政策是否有用。截止目前提高首付乘数，交易环节征收高额房产税，禁止首付贷，都是通过压制需求侧来打压房价。但有两个核心问题没有解决：<\/p>\r\n<p>1. 对于一二线城市而言，由于人口和资本净流入的现实，需求是无法长期压制的。过去几年土地供应不足，大量二手房房东持房而沽导致供给侧不足才是核心问题。<\/p>\r\n<p>2. 房价说到底是货币问题，不改变人民币通胀预期和现有的低利率信贷环境，房价不会下跌。<\/p>\r\n<p>香港就是一个典型的例子，供给严重不足加上超级宽松的房贷条件和利率，导致香港房价居高不下。<\/p>\r\n<p>最后，有没有好的替代方法。<\/p>\r\n<p>真的要房价下跌，其实有两个杀手锏：<strong>升息 和 对所有保有环节房产征收房产税。<\/strong><\/p>\n<\/div>\n<\/div>\n\n\n<div class=\"view-more\"><a href=\"http:\/\/www.zhihu.com\/question\/53101327\">查看知乎讨论<span class=\"js-question-holder\"><\/span><\/a><\/div>\n\n<\/div>\n\n\n<\/div>\n<\/div>",
+	"image_source": "Jannes Glas. \/ CC BY",
+	"title": "上海房产新政出台，普通人买房的钱可能不够了",
+	"image": "http:\/\/pic1.zhimg.com\/0f71f342c846010722aa01dfa17286f4.jpg",
+	"share_url": "http:\/\/daily.zhihu.com\/story\/9021074",
+	"js": [],
+	"ga_prefix": "112913",
+	"images": ["http:\/\/pic3.zhimg.com\/32ebfc815cf2c97959b0f9507323126e.jpg"],
+	"type": 0,
+	"id": 9021074,
+	"css": ["http:\/\/news-at.zhihu.com\/css\/news_qa.auto.css?v=4b3e3"]
+}

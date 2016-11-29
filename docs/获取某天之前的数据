@@ -1,150 +1,143 @@
-https://news-at.zhihu.com/api/7/stories/before/20161129?client=0
-
-
-
------Header-----
-GET /api/7/stories/before/20161129?client=0 HTTP/1.1
+GET /api/4/stories/before/20161129 HTTP/1.1
+Accept-Encoding: gzip
+Authorization: Bearer Z43zGKWLT-emPohbqcOogQ
+User-Agent: DailyApi/4 (Linux; Android 5.1.1; Android SDK built for x86_64 Build/Android/sdk_phone_x86_64/generic_x86_64/LMY48X/zh_CN) Google-HTTP-Java-Client/1.20.0 (gzip) Google-HTTP-Java-Client/1.20.0 (gzip)
+x-api-version: 4
+x-app-version: 2.6.0
+x-os: Android 5.1.1
+x-device: Android SDK built for x86_64
+x-uuid: 27ca4d57-75e1-4004-8965-27f12d7c4190
+za: OS=Android 5.1.1&Platform=Android SDK built for x86_64
 Host: news-at.zhihu.com
-Accept: */*
-X-Device: iPhone7,1/N56AP
-Authorization: Bearer Oe9WEekIRdu_PK8e_TMDKg
-X-OS: iOS 8.3
-Proxy-Connection: keep-alive
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-cn
-X-Api-Version: 7
-X-Bundle-ID: com.zhihu.daily
-X-UUID: D5815A4B-4F19-4BB6-88BA-AC74B55D9E20
-X-Device-Token: 94401842d42602a9261f324b2812c8b0ea2b6b1ad637f28dc30bf026d2740050
-User-Agent: daily/201607251035 CFNetwork/711.3.18 Darwin/14.0.0
-X-App-Version: 2.6.7
-Connection: keep-alive
-
+Connection: Keep-Alive
 
 
 
 ---ReponseBody---
 {
-	"date": "20161128",
+	"date": "20161127",
 	"stories": [{
-		"images": ["http:\/\/pic2.zhimg.com\/0f8439fbd4f5941bddd051f00f8b4abd.jpg"],
+		"images": ["http:\/\/pic1.zhimg.com\/5efabae89fe846862d3c8d037707a778.jpg"],
 		"type": 0,
-		"id": 9018544,
-		"ga_prefix": "112822",
-		"title": "小事 · 老司机，不害怕"
+		"id": 8854063,
+		"ga_prefix": "112722",
+		"title": "小事 · 爸爸只说一个字"
 	}, {
-		"images": ["http:\/\/pic4.zhimg.com\/4e32d05682b0b453ecb88124198aff47.jpg"],
+		"images": ["http:\/\/pic1.zhimg.com\/40d9663bfe987093d455383e92101634.jpg"],
 		"type": 0,
-		"id": 9018485,
-		"ga_prefix": "112821",
-		"title": "十大科幻电影海报及其背后的故事"
+		"id": 9010785,
+		"ga_prefix": "112721",
+		"title": "谈到许鞍华，可以说的总是太多了"
 	}, {
-		"images": ["http:\/\/pic3.zhimg.com\/a5907e3857211a10cd74042cd75b3b6e.jpg"],
+		"images": ["http:\/\/pic4.zhimg.com\/defa2d00d41cfbc85e24eda87415e8fb.jpg"],
 		"type": 0,
-		"id": 9018639,
-		"ga_prefix": "112820",
-		"title": "寝室共用晾衣杆也算分享经济，可怎么才能做出规模呢？"
+		"id": 8998251,
+		"ga_prefix": "112720",
+		"title": "知道法官有自由裁量权，那到底是多自由？"
 	}, {
-		"images": ["http:\/\/pic3.zhimg.com\/0c182a62496f9a1f94594f69c096da4a.jpg"],
+		"images": ["http:\/\/pic3.zhimg.com\/8d90d54fb1f53c889d369d5ce8ec07f6.jpg"],
 		"type": 0,
-		"id": 9019061,
-		"ga_prefix": "112819",
-		"title": "奖项都知道了，但金马奖有个值得一提的亮点还没人说"
+		"id": 9013823,
+		"ga_prefix": "112719",
+		"title": "旁边的人一打哈欠，我就想跟着来一个"
 	}, {
-		"images": ["http:\/\/pic2.zhimg.com\/4d66d6137077d6866d560c2b02c37579.jpg"],
+		"images": ["http:\/\/pic1.zhimg.com\/f7d74ad8a3843bea60404eecbb6cfba4.jpg"],
 		"type": 0,
-		"id": 9011257,
-		"ga_prefix": "112818",
-		"title": "师父领进门：帮你拆掉经济学的高墙"
+		"id": 9010267,
+		"ga_prefix": "112718",
+		"title": "从大名鼎鼎的 PayPal 黑帮说起，什么是数据分析方法论？"
 	}, {
-		"images": ["http:\/\/pic2.zhimg.com\/04dadaf3729ccb0ce0dea8c0ac1b9c2d.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/f30b7e93bfe5d956e00457df06669935.jpg"],
 		"type": 0,
-		"id": 9019041,
-		"ga_prefix": "112817",
-		"title": "知乎好问题 · 中国市场上有哪些食用鱼类品种？"
+		"id": 9016162,
+		"ga_prefix": "112717",
+		"title": "知乎好问题 · 街头摄影有哪些小技巧？"
 	}, {
-		"images": ["http:\/\/pic1.zhimg.com\/cbe98bfabdff2eade2c1842303cacb68.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/659e8961eda009435618dd692b953a7d.jpg"],
 		"type": 0,
-		"id": 9018782,
-		"ga_prefix": "112816",
-		"title": "那些烂俗的修真仙侠网文，好多外国人看得津津有味"
+		"id": 9007961,
+		"ga_prefix": "112716",
+		"title": "一个简单的注意力游戏，让孩子学会发现和感悟"
 	}, {
-		"images": ["http:\/\/pic4.zhimg.com\/724bbc43d5b33a41b81932ebe42a6477.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/445d325ca12a7a3310a48391ea23c6f5.jpg"],
 		"type": 0,
-		"id": 9010979,
-		"ga_prefix": "112815",
-		"title": "孙悟空和印度的「神猴」有什么渊源？"
+		"id": 8997817,
+		"ga_prefix": "112715",
+		"title": "还没生病，我能先吃点抗生素预防一下吗？"
 	}, {
-		"images": ["http:\/\/pic4.zhimg.com\/cbc71398acc13f00ff516c1ee71a1843.jpg"],
+		"title": "惊艳巴黎的藤田嗣治，终究也是个被历史嘲弄的艺术家",
+		"ga_prefix": "112714",
+		"images": ["http:\/\/pic2.zhimg.com\/6d8f005bf5e130d1cd70279e49673719.jpg"],
+		"multipic": true,
 		"type": 0,
-		"id": 9017180,
-		"ga_prefix": "112814",
-		"title": "又出昏招，支付宝的新功能是谁出的主意？"
+		"id": 9007077
 	}, {
-		"images": ["http:\/\/pic2.zhimg.com\/062654012faf742ff1939e17125c5645.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/57308ea1d9109d996b200e479aeaf9d1.jpg"],
 		"type": 0,
-		"id": 9017941,
-		"ga_prefix": "112813",
-		"title": "这电池是好，但写成「充电几秒，续航一周」可就是忽悠了"
+		"id": 9003898,
+		"ga_prefix": "112713",
+		"title": "老师，你非把我一个学渣放学霸旁边，有用吗？"
 	}, {
-		"images": ["http:\/\/pic2.zhimg.com\/ac5c3d70ca6ab9a375225688fd9271d1.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/497c6f84d5ba76632d38bd0987db318d.jpg"],
 		"type": 0,
-		"id": 9017935,
-		"ga_prefix": "112812",
-		"title": "大误 · 睡觉不能太死啊"
+		"id": 9015342,
+		"ga_prefix": "112712",
+		"title": "大误 · 不可思议 ♂ 的时间静止冰冻术"
 	}, {
-		"images": ["http:\/\/pic4.zhimg.com\/452ef3d19868d17e987b4d1d2530c6e3.jpg"],
+		"images": ["http:\/\/pic1.zhimg.com\/fa524d51cc9bdfe1f4b6cc1cf9978038.jpg"],
 		"type": 0,
-		"id": 9016870,
-		"ga_prefix": "112811",
-		"title": "要定义真正的「尖锐」，「空间分辨率」才是更本质的叙述"
+		"id": 9001367,
+		"ga_prefix": "112711",
+		"title": "有一天，机器真可能会把交易员的活儿也给干了"
 	}, {
-		"images": ["http:\/\/pic4.zhimg.com\/f5a52210676e207598cd750539629847.jpg"],
+		"title": "这样游览纽约，就像从无数部电影中穿过",
+		"ga_prefix": "112710",
+		"images": ["http:\/\/pic4.zhimg.com\/5cecffac95586118e3ffcac3da43004b.jpg"],
+		"multipic": true,
 		"type": 0,
-		"id": 9015541,
-		"ga_prefix": "112810",
-		"title": "特朗普一直在抱怨，中国到底抢了美国多少就业岗位？"
+		"id": 8998673
 	}, {
-		"images": ["http:\/\/pic2.zhimg.com\/4ab0f5aa857990245fc652804ee1cc05.jpg"],
+		"images": ["http:\/\/pic3.zhimg.com\/82b7007b7cc1523400a03809e540454a.jpg"],
 		"type": 0,
-		"id": 9013684,
-		"ga_prefix": "112809",
-		"title": "变形金刚是很厉害，但不能说他们是「超级英雄」"
+		"id": 8998391,
+		"ga_prefix": "112709",
+		"title": "双十一什么都没买，这不就亏了吗？"
 	}, {
-		"images": ["http:\/\/pic3.zhimg.com\/0fa64e9df46ff4b390af7c9bfe7d3fea.jpg"],
+		"title": "拿了金马奖最佳摄影的《长江图》，在导演眼中是这样的",
+		"ga_prefix": "112708",
+		"images": ["http:\/\/pic2.zhimg.com\/7bb9a7f89fbce9719da635adc9928bf1.jpg"],
+		"multipic": true,
 		"type": 0,
-		"id": 9010027,
-		"ga_prefix": "112808",
-		"title": "等我开会儿小差，就会更有灵感的"
+		"id": 9014242
 	}, {
-		"images": ["http:\/\/pic3.zhimg.com\/e28298f6f2e9ce35ab294ee2c54489ea.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/4a99007df4f5b01f63ec2f92338781b5.jpg"],
 		"type": 0,
-		"id": 9015499,
-		"ga_prefix": "112807",
-		"title": "一天会跑三个城市的电影路演，主创人员都要做什么？"
+		"id": 9007163,
+		"ga_prefix": "112707",
+		"title": "告别「不靠谱的雪和不正经的风」，全靠这个了"
 	}, {
-		"images": ["http:\/\/pic3.zhimg.com\/b9ee7b139aaff079fd371ddaae1490da.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/8c0fb0033aab174ff3ccfcd2143da7a9.jpg"],
 		"type": 0,
-		"id": 9017011,
-		"ga_prefix": "112807",
-		"title": "如何理解「北大四成新生认为人生没有意义」？"
+		"id": 9002031,
+		"ga_prefix": "112707",
+		"title": "中国的教育最需要什么？"
 	}, {
-		"images": ["http:\/\/pic1.zhimg.com\/0b3bd5e6a670f23857efcdfc209f57c0.jpg"],
+		"images": ["http:\/\/pic3.zhimg.com\/43851c49bf1ca13dffdaacb170dfa6ca.jpg"],
 		"type": 0,
-		"id": 9016757,
-		"ga_prefix": "112807",
-		"title": "别被「雾霾中发现耐药菌」吓到，先来看看原文怎么说"
+		"id": 9010754,
+		"ga_prefix": "112707",
+		"title": "电影业垄断没什么可吵的，实在不行学好莱坞「打一架」"
 	}, {
-		"images": ["http:\/\/pic4.zhimg.com\/51317ccbc2affe5db3232b7fa1b52eb3.jpg"],
+		"images": ["http:\/\/pic2.zhimg.com\/b12c991ecbde212f4b1934f69cce24fd.jpg"],
 		"type": 0,
-		"id": 9017121,
-		"ga_prefix": "112807",
-		"title": "读读日报 24 小时热门 TOP 5 · 支付宝的大尺度写真"
+		"id": 9014488,
+		"ga_prefix": "112707",
+		"title": "读读日报 24 小时热门 TOP 5 · 「飞天」一点都不好玩"
 	}, {
-		"images": ["http:\/\/pic2.zhimg.com\/8cffef7fe39b9145f64554d9fc864d25.jpg"],
+		"images": ["http:\/\/pic3.zhimg.com\/c0d708639383670ba6c9009010c8163a.jpg"],
 		"type": 0,
-		"id": 9013816,
-		"ga_prefix": "112806",
+		"id": 9013693,
+		"ga_prefix": "112706",
 		"title": "瞎扯 · 如何正确地吐槽"
 	}]
 }
