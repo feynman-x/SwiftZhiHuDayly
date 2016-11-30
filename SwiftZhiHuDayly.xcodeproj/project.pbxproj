@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6485BF219E01CAE65B83E2 /* Pods_SwiftZhiHuDayly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D67DD004EC2CAB3922EC2DB /* Pods_SwiftZhiHuDayly.framework */; };
 		93981BD01DEDCFC000421EB0 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93981BCE1DEDCFC000421EB0 /* SplashVC.swift */; };
 		93981BD51DEDD19F00421EB0 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93981BD41DEDD19F00421EB0 /* Splash.storyboard */; };
 		93A9303B1DED7579008476A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A9303A1DED7579008476A0 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D116B531AB78E303AC01B38 /* Pods-SwiftZhiHuDayly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftZhiHuDayly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftZhiHuDayly/Pods-SwiftZhiHuDayly.debug.xcconfig"; sourceTree = "<group>"; };
 		93981BCE1DEDCFC000421EB0 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		93981BD41DEDD19F00421EB0 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		93A930371DED7579008476A0 /* SwiftZhiHuDayly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftZhiHuDayly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,8 @@
 		93A9304B1DED7579008476A0 /* SwiftZhiHuDaylyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZhiHuDaylyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A9304F1DED7579008476A0 /* SwiftZhiHuDaylyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZhiHuDaylyTests.swift; sourceTree = "<group>"; };
 		93A930511DED7579008476A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D67DD004EC2CAB3922EC2DB /* Pods_SwiftZhiHuDayly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftZhiHuDayly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E001948CECD870CC5E0B93 /* Pods-SwiftZhiHuDayly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftZhiHuDayly.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftZhiHuDayly/Pods-SwiftZhiHuDayly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6485BF219E01CAE65B83E2 /* Pods_SwiftZhiHuDayly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2572B993DC1E495BF1AF18B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D116B531AB78E303AC01B38 /* Pods-SwiftZhiHuDayly.debug.xcconfig */,
+				C6E001948CECD870CC5E0B93 /* Pods-SwiftZhiHuDayly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6AD055B9B54F08FC4AAE9BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D67DD004EC2CAB3922EC2DB /* Pods_SwiftZhiHuDayly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		937885AC1DEDCD6B00D376CB /* modelLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +116,8 @@
 				93A930391DED7579008476A0 /* SwiftZhiHuDayly */,
 				93A9304E1DED7579008476A0 /* SwiftZhiHuDaylyTests */,
 				93A930381DED7579008476A0 /* Products */,
+				2572B993DC1E495BF1AF18B3 /* Pods */,
+				6AD055B9B54F08FC4AAE9BA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93A930541DED7579008476A0 /* Build configuration list for PBXNativeTarget "SwiftZhiHuDayly" */;
 			buildPhases = (
+				9896F5EFF91086D1E52F82BE /* [CP] Check Pods Manifest.lock */,
 				93A930331DED7579008476A0 /* Sources */,
 				93A930341DED7579008476A0 /* Frameworks */,
 				93A930351DED7579008476A0 /* Resources */,
+				8867E16DDB8B2E37E20EFCD1 /* [CP] Embed Pods Frameworks */,
+				89F36802CB455015D3FB10D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +251,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8867E16DDB8B2E37E20EFCD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftZhiHuDayly/Pods-SwiftZhiHuDayly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F36802CB455015D3FB10D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftZhiHuDayly/Pods-SwiftZhiHuDayly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9896F5EFF91086D1E52F82BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93A930331DED7579008476A0 /* Sources */ = {
@@ -358,25 +433,27 @@
 		};
 		93A930551DED7579008476A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D116B531AB78E303AC01B38 /* Pods-SwiftZhiHuDayly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftZhiHuDayly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drolmen.SwiftZhiHuDayly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
 		93A930561DED7579008476A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E001948CECD870CC5E0B93 /* Pods-SwiftZhiHuDayly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftZhiHuDayly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drolmen.SwiftZhiHuDayly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
