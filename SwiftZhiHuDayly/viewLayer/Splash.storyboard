@@ -77,6 +77,9 @@
                             <constraint firstItem="0yw-e8-2fo" firstAttribute="leading" secondItem="Bw8-eg-QoH" secondAttribute="leading" id="zes-bE-3ur"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentImagView" destination="0yw-e8-2fo" id="QQI-v6-3yH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58U-aV-EEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

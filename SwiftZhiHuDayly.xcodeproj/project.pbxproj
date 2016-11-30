@@ -14,6 +14,7 @@
 		93A930421DED7579008476A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A930411DED7579008476A0 /* Assets.xcassets */; };
 		93A930451DED7579008476A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A930431DED7579008476A0 /* LaunchScreen.storyboard */; };
 		93A930501DED7579008476A0 /* SwiftZhiHuDaylyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A9304F1DED7579008476A0 /* SwiftZhiHuDaylyTests.swift */; };
+		93E1FF3C1DEEEC1F00F2D54E /* SplashBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FF3B1DEEEC1F00F2D54E /* SplashBean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		93A9304B1DED7579008476A0 /* SwiftZhiHuDaylyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZhiHuDaylyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A9304F1DED7579008476A0 /* SwiftZhiHuDaylyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZhiHuDaylyTests.swift; sourceTree = "<group>"; };
 		93A930511DED7579008476A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E1FF3B1DEEEC1F00F2D54E /* SplashBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashBean.swift; sourceTree = SOURCE_ROOT; };
 		9D67DD004EC2CAB3922EC2DB /* Pods_SwiftZhiHuDayly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftZhiHuDayly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E001948CECD870CC5E0B93 /* Pods-SwiftZhiHuDayly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftZhiHuDayly.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftZhiHuDayly/Pods-SwiftZhiHuDayly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				937885B11DEDCE4B00D376CB /* common */,
+				93E1FF3B1DEEEC1F00F2D54E /* SplashBean.swift */,
 			);
 			path = modelLayer;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			files = (
 				93A9303B1DED7579008476A0 /* AppDelegate.swift in Sources */,
 				93981BD01DEDCFC000421EB0 /* SplashVC.swift in Sources */,
+				93E1FF3C1DEEEC1F00F2D54E /* SplashBean.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
