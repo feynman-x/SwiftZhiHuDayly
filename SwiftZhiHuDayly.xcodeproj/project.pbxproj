@@ -14,6 +14,8 @@
 		93A930421DED7579008476A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A930411DED7579008476A0 /* Assets.xcassets */; };
 		93A930451DED7579008476A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A930431DED7579008476A0 /* LaunchScreen.storyboard */; };
 		93A930501DED7579008476A0 /* SwiftZhiHuDaylyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A9304F1DED7579008476A0 /* SwiftZhiHuDaylyTests.swift */; };
+		93AE413D1DEFBCF100339F5E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE413C1DEFBCF100339F5E /* HomeVC.swift */; };
+		93AE413F1DEFBD1700339F5E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AE413E1DEFBD1700339F5E /* Home.storyboard */; };
 		93E1FF3C1DEEEC1F00F2D54E /* SplashBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FF3B1DEEEC1F00F2D54E /* SplashBean.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		93A9304B1DED7579008476A0 /* SwiftZhiHuDaylyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZhiHuDaylyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A9304F1DED7579008476A0 /* SwiftZhiHuDaylyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZhiHuDaylyTests.swift; sourceTree = "<group>"; };
 		93A930511DED7579008476A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AE413C1DEFBCF100339F5E /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		93AE413E1DEFBD1700339F5E /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		93E1FF3B1DEEEC1F00F2D54E /* SplashBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashBean.swift; sourceTree = SOURCE_ROOT; };
 		9D67DD004EC2CAB3922EC2DB /* Pods_SwiftZhiHuDayly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftZhiHuDayly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E001948CECD870CC5E0B93 /* Pods-SwiftZhiHuDayly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftZhiHuDayly.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftZhiHuDayly/Pods-SwiftZhiHuDayly.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				93981BD41DEDD19F00421EB0 /* Splash.storyboard */,
+				93AE413E1DEFBD1700339F5E /* Home.storyboard */,
 			);
 			path = viewLayer;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				93981BCE1DEDCFC000421EB0 /* SplashVC.swift */,
+				93AE413C1DEFBCF100339F5E /* HomeVC.swift */,
 			);
 			path = controllerLayer;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 				93A930451DED7579008476A0 /* LaunchScreen.storyboard in Resources */,
 				93A930421DED7579008476A0 /* Assets.xcassets in Resources */,
 				93981BD51DEDD19F00421EB0 /* Splash.storyboard in Resources */,
+				93AE413F1DEFBD1700339F5E /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A9303B1DED7579008476A0 /* AppDelegate.swift in Sources */,
+				93AE413D1DEFBCF100339F5E /* HomeVC.swift in Sources */,
 				93981BD01DEDCFC000421EB0 /* SplashVC.swift in Sources */,
 				93E1FF3C1DEEEC1F00F2D54E /* SplashBean.swift in Sources */,
 			);

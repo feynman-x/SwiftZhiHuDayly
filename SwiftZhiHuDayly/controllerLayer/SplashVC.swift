@@ -18,6 +18,7 @@ class SplashVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(contentImagView == nil)
         self.requestData()
     }
     
@@ -27,12 +28,29 @@ class SplashVC: UIViewController {
         
         Alamofire.request("https://news-at.zhihu.com/api/4/start-image/1080*1776").responseJSON{reponse in
             
+            //data转实体类
+            let bean = JSONDeserializer<SplashBean>.deserializeFrom(dict: reponse.result.value as! NSDictionary?)
             
-            if let bean = JSONDeserializer<SplashBean>.deserializeFrom(json: reponse.result.value as! String?){
-                self.contentImagView!.kf.setImage(with: URL(string: bean.img!))
-            }
-            
+            self.showPicAndText(bean: bean!)
         }
+    }
+    
+    func showPicAndText( bean:SplashBean){
+        let url = URL(string: bean.img!)
+        contentImagView.kf.setImage(with: url)
+        
+        weak var weakSelf = self
+        
+        let thread = Thread(block: {
+            sleep(UInt32(3))
+            weakSelf?.performSelector(onMainThread: #selector(self.jump), with: nil, waitUntilDone: false)
+        })
+        thread.start()
+    }
+    
+    func jump(){
+        let homeVC = HomeVC()
+        self.present(homeVC, animated: true, completion: nil)
     }
 
 }
